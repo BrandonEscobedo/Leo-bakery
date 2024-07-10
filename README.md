@@ -1,4 +1,4 @@
-## Leo Bakery 
+### Leo Bakery 
 Sistema punto de venta multicajas 
 
 #Proyecto terminado el 20 de Mayo del 2022
