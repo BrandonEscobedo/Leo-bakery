@@ -1,0 +1,289 @@
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\PUNTO_DE_VENTA.exe.config
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\PUNTO_DE_VENTA.exe
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\PUNTO_DE_VENTA.pdb
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.AssemblyReference.cache
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.SuggestedBindingRedirects.cache
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.usuarios.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.Properties.Resources.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.GenerateResource.cache
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.CoreCompileInputs.cache
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.exe
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.pdb
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.login.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.caja.apertura_de_caja.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.SqlServer.IntegrationServices.ODataConnectionManager.dll
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.SqlServer.ManagedConnections.dll
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.CopyComplete
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.caja.cierre_de_caja.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.Menu_principal.ventas_menu_principal.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.Menu_principal.menu_principal.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.administracion_de_software.conexion_manual.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.productos.productos.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.exe.licenses
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Klik.Windows.Forms.EntryLib.V2.2005.dll
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.inventario_kardex.inventario_menu.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\PUNTO_DE_VENTA.exe.config
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\PUNTO_DE_VENTA.exe
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\PUNTO_DE_VENTA.pdb
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.SqlServer.IntegrationServices.ODataConnectionManager.dll
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.SqlServer.ManagedConnections.dll
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.AssemblyReference.cache
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.SuggestedBindingRedirects.cache
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.administracion_de_software.conexion_manual.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.caja.apertura_de_caja.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.caja.cierre_de_caja.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.inventario_kardex.inventario_menu.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.login.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.Menu_principal.menu_principal.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.Menu_principal.ventas_menu_principal.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.productos.productos.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.usuarios.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.Properties.Resources.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.GenerateResource.cache
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.exe.licenses
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.CoreCompileInputs.cache
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.CopyComplete
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.exe
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.pdb
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\PUNTO_DE_VENTA.exe.config
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\PUNTO_DE_VENTA.exe
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\PUNTO_DE_VENTA.pdb
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Telerik.Reporting.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Telerik.ReportViewer.WinForms.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Telerik.Reporting.pdb
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Telerik.Reporting.xml
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Telerik.ReportViewer.WinForms.pdb
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Telerik.ReportViewer.WinForms.xml
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.administracion_de_software.conexion_manual.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.caja.apertura_de_caja.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.caja.cierre_de_caja.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.inventario_kardex.inventario_menu.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.login.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.Menu_principal.menu_principal.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.Menu_principal.ventas_menu_principal.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.productos.productos.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.usuarios.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.Properties.Resources.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.GenerateResource.cache
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.exe.licenses
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.CoreCompileInputs.cache
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.CopyComplete
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.exe
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.pdb
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\RdlCompile.cache
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\RdlCompile.compiled
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.SqlServer.IntegrationServices.ODataConnectionManager.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.SqlServer.ManagedConnections.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\EnvDTE.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\stdole.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.MSXML.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.AssemblyReference.cache
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.reportes.reportes_de_kardex.reporte_de_inventarios.form_r_movimientos.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.reportes.reportes_de_kardex.reporte_de_inventarios.form_reporte_movimientos_filtros.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.asistente_de_instalacion_servidor.e_servidor_remoto.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.asistente_de_instalacion_servidor.instalacion_de_servidor_sql.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.asistente_de_instalacion_servidor.registro_de_empresa.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.asistente_de_instalacion_servidor.registro_usuario_autorizados.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.control_negocio.pantalla_principal_admin.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.configuracion.form_configuraciones.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.configurar_empresa.form_configurar_empresa.resources
+C:\Users\brand\Desktop\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.caja.form_cajas.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\BarcodeStandard.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\CircularProgressBar.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.SqlServer.IntegrationServices.ODataConnectionManager.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.SqlServer.ManagedConnections.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\SpreadsheetLight.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.Buffers.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.Drawing.Common.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.IO.Packaging.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.Memory.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.Text.Json.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.ValueTuple.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Telerik.Reporting.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Telerik.ReportViewer.WinForms.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\WinFormAnimation.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\EnvDTE.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\stdole.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.MSXML.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\CircularProgressBar.xml
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\SpreadsheetLight.xml
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.Buffers.xml
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.Drawing.Common.xml
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.IO.Packaging.xml
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.Memory.xml
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.Text.Json.xml
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\System.ValueTuple.xml
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Telerik.Reporting.pdb
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Telerik.Reporting.xml
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Telerik.ReportViewer.WinForms.pdb
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Telerik.ReportViewer.WinForms.xml
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.administracion_de_software.conexion_manual.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.asistente_de_instalacion_servidor.e_servidor_remoto.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.asistente_de_instalacion_servidor.instalacion_de_servidor_sql.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.asistente_de_instalacion_servidor.registro_de_empresa.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.asistente_de_instalacion_servidor.registro_usuario_autorizados.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.caja.apertura_de_caja.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.caja.cierre_de_caja.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.caja.form_cajas.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.caja.terminar_turno.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.clientes_y_proveedores.clientes.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.comprobantes.serializacion.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.configuracion.form_configuraciones.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.configurar_empresa.form_configurar_empresa.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.control_negocio.pantalla_principal_admin.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.creditos.C_pagar.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.diseño_de_comprobantes.form_ticketcs.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.form_cargando.formulario_cargando.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.inventario_kardex.inventario_menu.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.login.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.Menu_principal.granel.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.Menu_principal.medios_de_pago.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.Menu_principal.menu_principal.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.Menu_principal.ventas_espera.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.Menu_principal.ventas_menu_principal.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.notificaciones.form_notificaciones.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.productos.asistente_de_importacion_productos_e.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.productos.productos.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.remota.caja_remota.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.remota.conexion.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.reportes.reportes_de_kardex.reporte_de_inventarios.form_reporte_movimientos_filtros.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.reportes.reportes_de_kardex.reporte_de_inventarios.form_r_movimientos.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.usuarios.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.Properties.Resources.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.GenerateResource.cache
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\RdlCompile.cache
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\RdlCompile.compiled
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.CoreCompileInputs.cache
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.CopyComplete
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.AssemblyReference.cache
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.presentacion.inventario_kardex.inv_entrada.resources
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\leobeakery.exe.licenses
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\leobeakery.exe.config
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\leobeakery.exe
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\leobeakery.pdb
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\leobeakery.exe
+C:\Users\brand\Desktop\inf importante\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\leobeakery.pdb

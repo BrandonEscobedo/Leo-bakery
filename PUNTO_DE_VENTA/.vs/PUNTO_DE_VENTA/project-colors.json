@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "320385fa-b0b1-47a9-9f96-b6a03bf9d38e": {
+      "ProjectGuid": "320385fa-b0b1-47a9-9f96-b6a03bf9d38e",
+      "DisplayName": "PUNTO_DE_VENTA",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

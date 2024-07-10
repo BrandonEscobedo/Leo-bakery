@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{320385FA-B0B1-47A9-9F96-B6A03BF9D38E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PUNTO_DE_VENTA</RootNamespace>
+    <AssemblyName>leobeakery</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>9</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4CBF2E2724457219E59110174DBA37E37F10DEA4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PUNTO_DE_VENTA_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>MicrosoftTeams-image.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeStandard, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BarcodeLib.2.4.0\lib\netstandard2.0\BarcodeStandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\Users\jesus\Downloads\Telegram Desktop\02 Nivel Basico - Inicio del Curso - ¡¡¡¡ Gratis!!!\Sln_MicrosellLite Sql\Microsell_Lite\bin\Debug\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CircularProgressBar, Version=2.8.0.16, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CircularProgressBar.2.8.0.16\lib\net40\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.16.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.16.0\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=5.15.4.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.4\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Klik.Windows.Forms.EntryLib.V2.2005">
+      <HintPath>..\..\..\Users\jesus\Downloads\Telegram Desktop\02 Nivel Basico - Inicio del Curso - ¡¡¡¡ Gratis!!!\Sln_MicrosellLite Sql\Microsell_Lite\bin\Debug\Klik.Windows.Forms.EntryLib.V2.2005.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.IntegrationServices.ODataConnectionManager, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.ManagedConnections, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SpreadsheetLight, Version=3.5.0.0, Culture=neutral, PublicKeyToken=32fbb46dc1730c57, processorArchitecture=MSIL">
+      <HintPath>..\packages\SpreadsheetLight.3.5.0\lib\netstandard2.0\SpreadsheetLight.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.6.0.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=4.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Packaging.4.7.0\lib\net46\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Management.Instrumentation" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=5.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.5.0.1\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.5.0.2\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Reporting, Version=13.0.19.116, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.ReportViewer.WinForms, Version=13.0.19.116, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bd_PVDataSet.cs">
+      <DependentUpon>bd_PVDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bd_PVDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bd_PVDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="conexion\ConexionMaestra.cs" />
+    <Compile Include="conexion\desencriptacion.cs" />
+    <Compile Include="conexion\encriptacion.cs" />
+    <Compile Include="conexion\encriptar_en_texto.cs" />
+    <Compile Include="datos\cerrar_abrir_caja.cs" />
+    <Compile Include="datos\insertar.cs" />
+    <Compile Include="datos\ventas_espera_proc.cs" />
+    <Compile Include="datos\eliminar_venta.cs" />
+    <Compile Include="datos\procedimientos_reutilizables.cs" />
+    <Compile Include="negocio\cerrar_turno.cs" />
+    <Compile Include="negocio\ncreditos_pagar.cs" />
+    <Compile Include="negocio\ndv.cs" />
+    <Compile Include="negocio\npruductos.cs" />
+    <Compile Include="negocio\panel_admin.cs" />
+    <Compile Include="negocio\procedimientos_necesarios.cs" />
+    <Compile Include="presentacion\administracion_de_software\conexion_manual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\administracion_de_software\conexion_manual.Designer.cs">
+      <DependentUpon>conexion_manual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\asistente_de_instalacion_servidor\e_servidor_remoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\asistente_de_instalacion_servidor\e_servidor_remoto.Designer.cs">
+      <DependentUpon>e_servidor_remoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\asistente_de_instalacion_servidor\instalacion_de_servidor_sql.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\asistente_de_instalacion_servidor\instalacion_de_servidor_sql.Designer.cs">
+      <DependentUpon>instalacion_de_servidor_sql.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\asistente_de_instalacion_servidor\registro_de_empresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\asistente_de_instalacion_servidor\registro_de_empresa.Designer.cs">
+      <DependentUpon>registro_de_empresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\asistente_de_instalacion_servidor\registro_usuario_autorizados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\asistente_de_instalacion_servidor\registro_usuario_autorizados.Designer.cs">
+      <DependentUpon>registro_usuario_autorizados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\caja\apertura_de_caja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\caja\apertura_de_caja.Designer.cs">
+      <DependentUpon>apertura_de_caja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\caja\cierre_de_caja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\caja\cierre_de_caja.Designer.cs">
+      <DependentUpon>cierre_de_caja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\caja\form_cajas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\caja\form_cajas.Designer.cs">
+      <DependentUpon>form_cajas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\caja\terminar_turno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\caja\terminar_turno.Designer.cs">
+      <DependentUpon>terminar_turno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\clientes_y_proveedores\clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\clientes_y_proveedores\clientes.Designer.cs">
+      <DependentUpon>clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\comprobantes\clase_ticket.cs" />
+    <Compile Include="presentacion\comprobantes\DataSet_ticket.cs">
+      <DependentUpon>DataSet_ticket.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\comprobantes\DataSet_ticket.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_ticket.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\comprobantes\serializacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\comprobantes\serializacion.Designer.cs">
+      <DependentUpon>serializacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\configuracion\form_configuraciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\configuracion\form_configuraciones.Designer.cs">
+      <DependentUpon>form_configuraciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\configurar_empresa\form_configurar_empresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\configurar_empresa\form_configurar_empresa.Designer.cs">
+      <DependentUpon>form_configurar_empresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\control_negocio\pantalla_principal_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\control_negocio\pantalla_principal_admin.Designer.cs">
+      <DependentUpon>pantalla_principal_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\creditos\C_cobrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\creditos\C_cobrar.Designer.cs">
+      <DependentUpon>C_cobrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\creditos\C_pagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\creditos\C_pagar.Designer.cs">
+      <DependentUpon>C_pagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\diseño_de_comprobantes\form_ticketcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\diseño_de_comprobantes\form_ticketcs.Designer.cs">
+      <DependentUpon>form_ticketcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\form_cargando\formulario_cargando.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\form_cargando\formulario_cargando.Designer.cs">
+      <DependentUpon>formulario_cargando.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\inventario_kardex\inventario-menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\inventario_kardex\inventario-menu.Designer.cs">
+      <DependentUpon>inventario-menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\inventario_kardex\inv_entrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\inventario_kardex\inv_entrada.Designer.cs">
+      <DependentUpon>inv_entrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\login\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\login\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\Menu_principal\granel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\Menu_principal\granel.Designer.cs">
+      <DependentUpon>granel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\Menu_principal\imprimir_tickets.cs" />
+    <Compile Include="presentacion\Menu_principal\medios_de_pago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\Menu_principal\medios_de_pago.Designer.cs">
+      <DependentUpon>medios_de_pago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\Menu_principal\menu_principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\Menu_principal\menu_principal.Designer.cs">
+      <DependentUpon>menu_principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\Menu_principal\ventas_espera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\Menu_principal\ventas_espera.Designer.cs">
+      <DependentUpon>ventas_espera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\Menu_principal\ventas_menu_principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\Menu_principal\ventas_menu_principal.Designer.cs">
+      <DependentUpon>ventas_menu_principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\notificaciones\form_notificaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\notificaciones\form_notificaciones.Designer.cs">
+      <DependentUpon>form_notificaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\productos\asistente_de_importacion_productos_e.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\productos\asistente_de_importacion_productos_e.Designer.cs">
+      <DependentUpon>asistente_de_importacion_productos_e.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\productos\productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\productos\productos.Designer.cs">
+      <DependentUpon>productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\remota\caja_remota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\remota\caja_remota.Designer.cs">
+      <DependentUpon>caja_remota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\remota\conexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\remota\conexion.Designer.cs">
+      <DependentUpon>conexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\reportes\reportes_de_kardex\reporte_de_inventarios\dataset_datos1.cs">
+      <DependentUpon>dataset_datos1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\reportes\reportes_de_kardex\reporte_de_inventarios\dataset_datos1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dataset_datos1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\reportes\reportes_de_kardex\reporte_de_inventarios\form_reporte_movimientos_filtros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\reportes\reportes_de_kardex\reporte_de_inventarios\form_reporte_movimientos_filtros.Designer.cs">
+      <DependentUpon>form_reporte_movimientos_filtros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\reportes\reportes_de_kardex\reporte_de_inventarios\form_r_movimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\reportes\reportes_de_kardex\reporte_de_inventarios\form_r_movimientos.Designer.cs">
+      <DependentUpon>form_r_movimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentacion\usuarios_permisos\usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentacion\usuarios_permisos\usuarios.Designer.cs">
+      <DependentUpon>usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="presentacion\administracion_de_software\conexion_manual.resx">
+      <DependentUpon>conexion_manual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\asistente_de_instalacion_servidor\e_servidor_remoto.resx">
+      <DependentUpon>e_servidor_remoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\asistente_de_instalacion_servidor\instalacion_de_servidor_sql.resx">
+      <DependentUpon>instalacion_de_servidor_sql.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\asistente_de_instalacion_servidor\registro_de_empresa.resx">
+      <DependentUpon>registro_de_empresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\asistente_de_instalacion_servidor\registro_usuario_autorizados.resx">
+      <DependentUpon>registro_usuario_autorizados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\caja\apertura_de_caja.resx">
+      <DependentUpon>apertura_de_caja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\caja\cierre_de_caja.resx">
+      <DependentUpon>cierre_de_caja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\caja\form_cajas.resx">
+      <DependentUpon>form_cajas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\caja\terminar_turno.resx">
+      <DependentUpon>terminar_turno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\clientes_y_proveedores\clientes.resx">
+      <DependentUpon>clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\comprobantes\serializacion.resx">
+      <DependentUpon>serializacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\comprobantes\ticket.rdlc" />
+    <EmbeddedResource Include="presentacion\configuracion\form_configuraciones.resx">
+      <DependentUpon>form_configuraciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\configurar_empresa\form_configurar_empresa.resx">
+      <DependentUpon>form_configurar_empresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\control_negocio\pantalla_principal_admin.resx">
+      <DependentUpon>pantalla_principal_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\creditos\C_pagar.resx">
+      <DependentUpon>C_pagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\diseño_de_comprobantes\form_ticketcs.resx">
+      <DependentUpon>form_ticketcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\form_cargando\formulario_cargando.resx">
+      <DependentUpon>formulario_cargando.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\inventario_kardex\inventario-menu.resx">
+      <DependentUpon>inventario-menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\inventario_kardex\inv_entrada.resx">
+      <DependentUpon>inv_entrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\login\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\Menu_principal\granel.resx">
+      <DependentUpon>granel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\Menu_principal\medios_de_pago.resx">
+      <DependentUpon>medios_de_pago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\Menu_principal\menu_principal.resx">
+      <DependentUpon>menu_principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\Menu_principal\ventas_espera.resx">
+      <DependentUpon>ventas_espera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\Menu_principal\ventas_menu_principal.resx">
+      <DependentUpon>ventas_menu_principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\notificaciones\form_notificaciones.resx">
+      <DependentUpon>form_notificaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\productos\asistente_de_importacion_productos_e.resx">
+      <DependentUpon>asistente_de_importacion_productos_e.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\productos\productos.resx">
+      <DependentUpon>productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\remota\caja_remota.resx">
+      <DependentUpon>caja_remota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\remota\conexion.resx">
+      <DependentUpon>conexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\reportes\reportes_de_kardex\reportes_kardex_d\Report1.rdlc" />
+    <EmbeddedResource Include="presentacion\reportes\reportes_de_kardex\reporte_de_inventarios\form_reporte_movimientos_filtros.resx">
+      <DependentUpon>form_reporte_movimientos_filtros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\reportes\reportes_de_kardex\reporte_de_inventarios\form_r_movimientos.resx">
+      <DependentUpon>form_r_movimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentacion\reportes\reportes_de_kardex\reporte_de_inventarios\reporte_movimientos.rdlc" />
+    <EmbeddedResource Include="presentacion\reportes\reportes_de_kardex\reporte_de_inventarios\reporte_movimientos_filtros.rdlc" />
+    <EmbeddedResource Include="presentacion\usuarios_permisos\usuarios.resx">
+      <DependentUpon>usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.manifest" />
+    <None Include="bd_PVDataSet.xsc">
+      <DependentUpon>bd_PVDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="bd_PVDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bd_PVDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bd_PVDataSet.xss">
+      <DependentUpon>bd_PVDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="presentacion\comprobantes\DataSet_ticket.xsc">
+      <DependentUpon>DataSet_ticket.xsd</DependentUpon>
+    </None>
+    <None Include="presentacion\comprobantes\DataSet_ticket.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_ticket.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="presentacion\comprobantes\DataSet_ticket.xss">
+      <DependentUpon>DataSet_ticket.xsd</DependentUpon>
+    </None>
+    <None Include="presentacion\reportes\reportes_de_kardex\reporte_de_inventarios\dataset_datos1.xsc">
+      <DependentUpon>dataset_datos1.xsd</DependentUpon>
+    </None>
+    <None Include="presentacion\reportes\reportes_de_kardex\reporte_de_inventarios\dataset_datos1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dataset_datos1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="presentacion\reportes\reportes_de_kardex\reporte_de_inventarios\dataset_datos1.xss">
+      <DependentUpon>dataset_datos1.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\PUNTO_DE_VENTA.conexion.ConexionMaestra.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circulo.png" />
+    <None Include="Resources\eliminar.png" />
+    <None Include="Resources\cheque %281%29.png" />
+    <None Include="Resources\caja.png" />
+    <None Include="Resources\pngwing.com.png" />
+    <None Include="Resources\quejarse.png" />
+    <None Include="Resources\fecha-limite.png" />
+    <Content Include="MicrosoftTeams-image.ico" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

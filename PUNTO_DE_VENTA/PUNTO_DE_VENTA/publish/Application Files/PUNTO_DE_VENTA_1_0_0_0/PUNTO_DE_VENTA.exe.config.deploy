@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="PUNTO_DE_VENTA.Properties.Settings.bd_PVConnectionString"
+            connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\bd_PV.mdf;Integrated Security=True;Connect Timeout=30"
+            providerName="System.Data.SqlClient" />
+        <add name="PUNTO_DE_VENTA.Properties.Settings.reportes_conexion"
+            connectionString="Data Source=BRANDON;Initial Catalog=bd_PV;Integrated Security=True"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2"/>
+    </startup>
+</configuration>

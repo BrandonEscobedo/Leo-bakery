@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{320385FA-B0B1-47A9-9F96-B6A03BF9D38E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PUNTO_DE_VENTA</RootNamespace>
+    <AssemblyName>PUNTO_DE_VENTA</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\Users\jesus\Downloads\Telegram Desktop\02 Nivel Basico - Inicio del Curso - ¡¡¡¡ Gratis!!!\Sln_MicrosellLite Sql\Microsell_Lite\bin\Debug\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Klik.Windows.Forms.EntryLib.V2.2005">
+      <HintPath>..\..\..\Users\jesus\Downloads\Telegram Desktop\02 Nivel Basico - Inicio del Curso - ¡¡¡¡ Gratis!!!\Sln_MicrosellLite Sql\Microsell_Lite\bin\Debug\Klik.Windows.Forms.EntryLib.V2.2005.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.IntegrationServices.ODataConnectionManager, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.ManagedConnections, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Management.Instrumentation" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Reporting, Version=13.0.19.116, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.ReportViewer.WinForms, Version=13.0.19.116, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="conexion\autocompletar.cs" />
+    <Compile Include="conexion\ConexionMaestra.cs" />
+    <Compile Include="conexion\desencriptacion.cs" />
+    <Compile Include="conexion\encriptacion.cs" />
+    <Compile Include="conexion\tamaño_datatablas.cs" />
+    <Compile Include="modulos\administracion_de_software\conexion_manual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modulos\administracion_de_software\conexion_manual.Designer.cs">
+      <DependentUpon>conexion_manual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\caja\apertura_de_caja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modulos\caja\apertura_de_caja.Designer.cs">
+      <DependentUpon>apertura_de_caja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\caja\cierre_de_caja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modulos\caja\cierre_de_caja.Designer.cs">
+      <DependentUpon>cierre_de_caja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\inventario_kardex\inventario-menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modulos\inventario_kardex\inventario-menu.Designer.cs">
+      <DependentUpon>inventario-menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\login\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modulos\login\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\Menu_principal\menu_principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modulos\Menu_principal\menu_principal.Designer.cs">
+      <DependentUpon>menu_principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\Menu_principal\ventas_menu_principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modulos\Menu_principal\ventas_menu_principal.Designer.cs">
+      <DependentUpon>ventas_menu_principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\productos\productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modulos\productos\productos.Designer.cs">
+      <DependentUpon>productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\usuarios_permisos\usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modulos\usuarios_permisos\usuarios.Designer.cs">
+      <DependentUpon>usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="modulos\administracion_de_software\conexion_manual.resx">
+      <DependentUpon>conexion_manual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modulos\caja\apertura_de_caja.resx">
+      <DependentUpon>apertura_de_caja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modulos\caja\cierre_de_caja.resx">
+      <DependentUpon>cierre_de_caja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modulos\inventario_kardex\inventario-menu.resx">
+      <DependentUpon>inventario-menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modulos\login\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modulos\Menu_principal\menu_principal.resx">
+      <DependentUpon>menu_principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modulos\Menu_principal\ventas_menu_principal.resx">
+      <DependentUpon>ventas_menu_principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modulos\productos\productos.resx">
+      <DependentUpon>productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modulos\usuarios_permisos\usuarios.resx">
+      <DependentUpon>usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

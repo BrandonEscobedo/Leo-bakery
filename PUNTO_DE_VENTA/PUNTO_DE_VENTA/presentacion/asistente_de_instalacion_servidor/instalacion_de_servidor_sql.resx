@@ -1,0 +1,2990 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txt_usuario_crear.Text" xml:space="preserve">
+    <value>create login user_db with password = 'jb&amp;db$Z10'
+go
+use base_datos;
+go
+if not exists (select * from sys.database_principals where name='user_db')
+begin
+create user [user_db] for login [user_db] exec sp_addrolemember N'db_owner',
+N'user_db' exec master..sp_addsrvrolemember	 @loginame =N'user_db', @rolename=
+N'sysadmin'
+end;
+go</value>
+  </data>
+  <data name="txtargumentos.Text" xml:space="preserve">
+    <value>;SQL Server 2019 Configuration File
+[OPTIONS]
+
+; Al especificar este parámetro y aceptar las condiciones de Microsoft Python Open y Microsoft Python Server, confirma que ha leído y comprendido los términos de uso. 
+
+IACCEPTPYTHONLICENSETERMS="False"
+
+; Especifica un flujo de trabajo de instalación, como INSTALL, UNINSTALL o UPGRADE. Es un parámetro necesario. 
+
+ACTION="Install"
+
+; Con la especificación de este parámetro y la aceptación de los términos de Microsoft R Open y Microsoft R Server, reconoce que ha leído y comprendido los términos de uso. 
+
+IACCEPTROPENLICENSETERMS="False"
+
+; Especifica que el programa de instalación de SQL Server no debe mostrar la declaración de privacidad cuando se ejecute desde la línea de comandos. 
+
+SUPPRESSPRIVACYSTATEMENTNOTICE="False"
+
+; Use el parámetro /ENU para instalar la versión en inglés de SQL Server en el sistema operativo Windows traducido. 
+
+ENU="True"
+
+; La instalación no mostrará ninguna interfaz de usuario. 
+
+QUIET="False"
+
+; El programa de configuración solo mostrará el progreso, sin la interacción del usuario. 
+
+QUIETSIMPLE="True"
+
+; Parámetro que controla el comportamiento de la interfaz de usuario. Los valores válidos son Normal para la interfaz de usuario completa, AutoAdvance para una interfaz de usuario simplificada y EnableUIOnServerCore para omitir la parte gráfica de la instalación de Server Core. 
+
+UIMODE="Normal"
+
+; Especifique si el programa de configuración de SQL Server debe detectar e incluir actualizaciones del producto. Los valores válidos son True y False o 1 y 0. De forma predeterminada, el programa de configuración de SQL Server incluirá las actualizaciones que encuentre. 
+
+UpdateEnabled="False"
+
+; Si se proporciona este parámetro, el equipo usará Microsoft Update para comprobar las actualizaciones. 
+
+USEMICROSOFTUPDATE="False"
+
+; Especifica que el programa de instalación de SQL Server no debe mostrar el aviso de edición de pago cuando se ejecute desde la línea de comandos. 
+
+SUPPRESSPAIDEDITIONNOTICE="False"
+
+; Especifique la ubicación en la que el programa de configuración de SQL Server obtendrá actualizaciones del producto. Los valores válidos son 'MU' para buscar en Microsoft Update, una ruta de acceso de carpeta válida, una ruta de acceso relativa, como .\MisActualizaciones, o un recurso compartido UNC. De forma predeterminada, el programa de configuración de SQL Server buscará en Microsoft Update o en el servicio Windows Update mediante Windows Server Update Services. 
+
+UpdateSource="MU"
+
+; Especifica las características que se van a instalar, desinstalar o actualizar. La lista de las características de nivel superior incluye SQL, AS, IS, MDS y Herramientas. La característica SQL instalará el motor de base de datos, la replicación, el texto completo y el servidor de Data Quality Services (DQS). La característica Herramientas instalará los componentes compartidos. 
+
+FEATURES=SQLENGINE
+
+; Muestra el uso de los parámetros de la línea de comandos. 
+
+HELP="False"
+
+; Especifica que el registro de instalación detallado debe redireccionarse a la consola. 
+
+INDICATEPROGRESS="True"
+
+; Especifica que el programa de configuración debe realizar la instalación en WOW64. Este argumento de la línea de comandos no se admite en sistemas IA64 ni de 32 bits. 
+
+X86="False"
+
+; Especifique una instancia con nombre o predeterminada. MSSQLSERVER es la instancia predeterminada de las ediciones que no sean Express, mientras que SQLExpress corresponde a las ediciones Express. Este parámetro es necesario para instalar el motor de base de datos de SQL Server (SQL), o bien Analysis Services (AS). 
+
+INSTANCENAME="MSSQLSERVER"
+
+; Especifique el directorio de instalación raíz de los componentes compartidos. Este directorio no cambia después de instalar los componentes compartidos. 
+
+INSTALLSHAREDDIR="C:\Program Files\Microsoft SQL Server"
+
+; Especifique el directorio de instalación raíz de los componentes compartidos WOW64. Este directorio no cambia después de instalar los componentes compartidos WOW64. 
+
+INSTALLSHAREDWOWDIR="C:\Program Files (x86)\Microsoft SQL Server"
+
+; Especifique el identificador de instancia de las características de SQL Server que ha indicado. Las estructuras de directorios y del Registro, así como los nombres de los servicios SQL Server incorporarán el identificador de instancia de SQL Server. 
+
+INSTANCEID="MSSQLSERVER"
+
+; Cuenta del servicio CEIP de SQL Server: dominio\usuario o cuenta del sistema. 
+
+SQLTELSVCACCT="NT Service\SQLTELEMETRY"
+
+; Tipo de inicio para el servicio CEIP de SQL Server. 
+
+SQLTELSVCSTARTUPTYPE="Automatic"
+
+; Especifique el directorio de instalación. 
+
+INSTANCEDIR="C:\Program Files\Microsoft SQL Server"
+
+; Nombre de cuenta del Agente 
+
+AGTSVCACCOUNT="NT Service\SQLSERVERAGENT"
+
+; Iniciar servicio automáticamente después de la instalación.  
+
+AGTSVCSTARTUPTYPE="Manual"
+
+; Puerto de comunicación TCP del brick de CM 
+
+COMMFABRICPORT="0"
+
+; Cómo usará la matriz las redes privadas 
+
+COMMFABRICNETWORKLEVEL="0"
+
+; Cómo se protegerá la comunicación entre bricks 
+
+COMMFABRICENCRYPTION="0"
+
+; Puerto TCP usado por el brick de CM 
+
+MATRIXCMBRICKCOMMPORT="0"
+
+; Tipo de inicio para el servicio SQL Server. 
+
+SQLSVCSTARTUPTYPE="Automatic"
+
+; Nivel para habilitar la característica FILESTREAM en (0, 1, 2 o 3). 
+
+FILESTREAMLEVEL="0"
+
+; La opción de configuración de servidor de grado máximo de paralelismo (MAXDOP). 
+
+SQLMAXDOP="4"
+
+; Establézcalo en "1" para habilitar RANU para SQL Server Express. 
+
+ENABLERANU="False"
+
+; Especifica una intercalación de Windows o SQL que se va a utilizar para el motor de base de datos. 
+
+SQLCOLLATION="Modern_Spanish_CI_AS"
+
+; Cuenta para el servicio de SQL Server: Dominio\Usuario o cuenta de sistema. 
+
+SQLSVCACCOUNT="NT Service\MSSQLSERVER"
+
+; Establezca el valor como "True" para habilitar la inicialización de archivo instantánea para el servicio SQL Server. Si se habilita, la Configuración concederá el privilegio de realización de tareas de mantenimiento de volumen al SID del servicio de motor de la base de datos. Esto puede dar lugar a la divulgación de información, ya que se podría permitir a una entidad de seguridad no autorizada el acceso a contenido eliminado. 
+
+SQLSVCINSTANTFILEINIT="True"
+
+; Cuentas de Windows que se suministran como administradores del sistema de SQL Server. 
+
+SQLSYSADMINACCOUNTS="BRANDON\brand"
+
+; El número de archivos de TempDB del motor de base de datos. 
+
+SQLTEMPDBFILECOUNT="4"
+
+; Especifica el tamaño inicial en MB del archivo de datos de TempDB de un motor de base de datos. 
+
+SQLTEMPDBFILESIZE="8"
+
+; Especifica el incremento en MB del crecimiento automático de cada archivo de datos de TempDB en cada motor de base de datos. 
+
+SQLTEMPDBFILEGROWTH="64"
+
+; Especifica el tamaño inicial en MB del archivo de registro de TempDB del motor de base de datos. 
+
+SQLTEMPDBLOGFILESIZE="8"
+
+; Especifica el incremento en MB del crecimiento automático del archivo de registro de TempDB del motor de base de datos. 
+
+SQLTEMPDBLOGFILEGROWTH="64"
+
+; Se aprovisiona el usuario actual como un administrador del sistema del motor de base de datos para SQL Server 2019 Express. 
+
+ADDCURRENTUSERASSQLADMIN="False"
+
+; Especifique 0 para deshabilitar el protocolo TCP/IP, o 1 para habilitarlo. 
+
+TCPENABLED="1"
+
+; Especifique 0 para deshabilitar el protocolo Named Pipes, o 1 para habilitarlo. 
+
+NPENABLED="0"
+
+; Tipo de inicio para el servicio SQL Server Browser. 
+
+BROWSERSVCSTARTUPTYPE="Disabled"
+
+; Use SQLMAXMEMORY para minimizar el riesgo de que el sistema operativo sufra una presión de memoria perjudicial. 
+
+SQLMAXMEMORY="2147483647"
+
+; Use SQLMINMEMORY para reservar una cantidad mínima de memoria disponible en el Administrador de memoria de SQL Server. 
+
+SQLMINMEMORY="0"</value>
+  </data>
+  <data name="txtscript.Text" xml:space="preserve">
+    <value>USE [master]
+GO
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [base_datos].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+ALTER DATABASE [base_datos] SET ANSI_NULL_DEFAULT OFF 
+GO
+ALTER DATABASE [base_datos] SET ANSI_NULLS OFF 
+GO
+ALTER DATABASE [base_datos] SET ANSI_PADDING OFF 
+GO
+ALTER DATABASE [base_datos] SET ANSI_WARNINGS OFF 
+GO
+ALTER DATABASE [base_datos] SET ARITHABORT OFF 
+GO
+ALTER DATABASE [base_datos] SET AUTO_CLOSE OFF 
+GO
+ALTER DATABASE [base_datos] SET AUTO_SHRINK OFF 
+GO
+ALTER DATABASE [base_datos] SET AUTO_UPDATE_STATISTICS ON 
+GO
+ALTER DATABASE [base_datos] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+ALTER DATABASE [base_datos] SET CURSOR_DEFAULT  GLOBAL 
+GO
+ALTER DATABASE [base_datos] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+ALTER DATABASE [base_datos] SET NUMERIC_ROUNDABORT OFF 
+GO
+ALTER DATABASE [base_datos] SET QUOTED_IDENTIFIER OFF 
+GO
+ALTER DATABASE [base_datos] SET RECURSIVE_TRIGGERS OFF 
+GO
+ALTER DATABASE [base_datos] SET  ENABLE_BROKER 
+GO
+ALTER DATABASE [base_datos] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+ALTER DATABASE [base_datos] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+ALTER DATABASE [base_datos] SET TRUSTWORTHY OFF 
+GO
+ALTER DATABASE [base_datos] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+ALTER DATABASE [base_datos] SET PARAMETERIZATION SIMPLE 
+GO
+ALTER DATABASE [base_datos] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+ALTER DATABASE [base_datos] SET HONOR_BROKER_PRIORITY OFF 
+GO
+ALTER DATABASE [base_datos] SET RECOVERY FULL 
+GO
+ALTER DATABASE [base_datos] SET  MULTI_USER 
+GO
+ALTER DATABASE [base_datos] SET PAGE_VERIFY CHECKSUM  
+GO
+ALTER DATABASE [base_datos] SET DB_CHAINING OFF 
+GO
+ALTER DATABASE [base_datos] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
+GO
+ALTER DATABASE [base_datos] SET TARGET_RECOVERY_TIME = 60 SECONDS 
+GO
+ALTER DATABASE [base_datos] SET DELAYED_DURABILITY = DISABLED 
+GO
+ALTER DATABASE [base_datos] SET ACCELERATED_DATABASE_RECOVERY = OFF  
+GO
+EXEC sys.sp_db_vardecimal_storage_format N'base_datos', N'ON'
+GO
+ALTER DATABASE [base_datos] SET QUERY_STORE = OFF
+GO
+USE [base_datos]
+GO
+/****** Object:  User [usuario1]    Script Date: 17/05/2022 02:17:06 a. m. ******/
+CREATE USER [usuario1] FOR LOGIN [usuario1] WITH DEFAULT_SCHEMA=[dbo]
+GO
+/****** Object:  User [user_db]    Script Date: 17/05/2022 02:17:06 a. m. ******/
+CREATE USER [user_db] WITHOUT LOGIN WITH DEFAULT_SCHEMA=[dbo]
+GO
+/****** Object:  Table [dbo].[caja]    Script Date: 17/05/2022 02:17:06 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[caja](
+	[id_caja] [int] IDENTITY(1,1) NOT NULL,
+	[descripcion] [varchar](100) NULL,
+	[Tema] [varchar](50) NULL,
+	[serial_pc] [varchar](max) NULL,
+	[impresora_ticket] [varchar](max) NULL,
+	[impresora_A4] [varchar](max) NULL,
+	[Tipo] [varchar](50) NULL,
+	[Estado] [varchar](50) NULL,
+ CONSTRAINT [PK__caja__C71E2476CF889631] PRIMARY KEY CLUSTERED 
+(
+	[id_caja] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[clientes]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[clientes](
+	[idcliente] [int] IDENTITY(1,1) NOT NULL,
+	[nombre] [varchar](max) NULL,
+	[direccion_para_factura] [varchar](max) NULL,
+	[identificador_fiscal] [varchar](max) NULL,
+	[movil] [varchar](50) NULL,
+	[cliente] [varchar](50) NULL,
+	[Estado] [varchar](50) NULL,
+	[Saldo] [numeric](18, 2) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[idcliente] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[creditos_a_pagar]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[creditos_a_pagar](
+	[id_credito] [int] IDENTITY(1,1) NOT NULL,
+	[descripcion] [varchar](max) NULL,
+	[fecha_registro] [datetime] NULL,
+	[fecha_vencimiento] [date] NULL,
+	[total] [numeric](18, 2) NULL,
+	[saldo] [numeric](18, 2) NULL,
+	[Estado] [varchar](max) NULL,
+	[Id_caja] [int] NULL,
+	[id_proveedor] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_credito] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[detalle_venta]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[detalle_venta](
+	[id_detalle_venta] [int] IDENTITY(1,1) NOT NULL,
+	[idventa] [int] NULL,
+	[id_producto] [int] NULL,
+	[cantidad] [numeric](18, 2) NULL,
+	[precio_u] [numeric](18, 2) NULL,
+	[moneda] [varchar](50) NULL,
+	[total_a_pagar]  AS ([precio_u]*[cantidad]),
+	[unidad_med] [varchar](50) NULL,
+	[cantidad_most] [numeric](18, 2) NULL,
+	[Estado] [varchar](50) NULL,
+	[descripcion] [varchar](50) NULL,
+	[codigo] [varchar](50) NULL,
+	[stock] [varchar](50) NULL,
+	[tipo_venta] [varchar](50) NULL,
+	[usa_inventario] [varchar](50) NULL,
+	[costo] [numeric](18, 2) NULL,
+	[ganancia]  AS ([cantidad]*[precio_u]-[cantidad]*[costo]),
+PRIMARY KEY CLUSTERED 
+(
+	[id_detalle_venta] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[empresa]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[empresa](
+	[id_empresa] [int] IDENTITY(1,1) NOT NULL,
+	[nombre_empresa] [varchar](100) NULL,
+	[logo] [image] NULL,
+	[impuesto] [varchar](50) NULL,
+	[porcentaje_impuesto] [varchar](50) NULL,
+	[moneda] [varchar](50) NULL,
+	[trabajas_con_impuestos] [varchar](50) NULL,
+	[modo_de_busqueda] [varchar](50) NULL,
+	[carpeta_para_copiar_seguridad] [varchar](50) NULL,
+	[correo_para_enviar_reportes] [varchar](max) NULL,
+	[ultima_fecha_copia_seguridad] [varchar](50) NULL,
+	[ultima_fecha_copia_date] [datetime] NULL,
+	[frecuencia_copias] [int] NULL,
+	[Estado] [varchar](50) NULL,
+	[Tipo_empresa] [varchar](50) NULL,
+	[pais] [varchar](max) NULL,
+	[redondeo_de_total] [varchar](50) NULL,
+	[telefono] [bigint] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_empresa] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[gastos_caja]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[gastos_caja](
+	[id_gasto] [int] IDENTITY(1,1) NOT NULL,
+	[fecha] [datetime] NULL,
+	[numero_comprobante] [varchar](max) NULL,
+	[tipo_comprobante] [varchar](100) NULL,
+	[importe] [numeric](18, 2) NULL,
+	[descripcion] [varchar](100) NULL,
+	[id_caja] [int] NULL,
+	[id_desc_gasto] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_gasto] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[gastos_empresa]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[gastos_empresa](
+	[id_desc_gasto] [int] IDENTITY(1,1) NOT NULL,
+	[descripcion_gasto] [varchar](max) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_desc_gasto] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[grupo_de_productos]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[grupo_de_productos](
+	[idline] [int] IDENTITY(1,1) NOT NULL,
+	[linea] [varchar](50) NULL,
+	[por_defecto] [varchar](50) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[idline] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[ingresos_de_caja]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[ingresos_de_caja](
+	[id_ingreso] [int] IDENTITY(1,1) NOT NULL,
+	[fecha] [datetime] NULL,
+	[numero_comprobante] [varchar](max) NULL,
+	[tipo_comprobante] [varchar](100) NULL,
+	[importe] [numeric](18, 2) NULL,
+	[descripcion] [varchar](100) NULL,
+	[id_caja] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_ingreso] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[inicio_sesion_por_caja]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[inicio_sesion_por_caja](
+	[id_inicio] [int] IDENTITY(1,1) NOT NULL,
+	[id_serial_pc] [varchar](50) NULL,
+	[id_usuario] [int] NULL,
+ CONSTRAINT [PK__inicio_s__726AE26DC46E2289] PRIMARY KEY CLUSTERED 
+(
+	[id_inicio] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[kardex]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[kardex](
+	[id_kardex] [int] IDENTITY(1,1) NOT NULL,
+	[fecha] [datetime] NULL,
+	[motivo] [varchar](max) NULL,
+	[cantidad] [numeric](18, 2) NULL,
+	[id_producto] [int] NULL,
+	[id_usuario] [int] NULL,
+	[tipo] [varchar](50) NULL,
+	[Estado] [varchar](50) NULL,
+	[Total]  AS ([cantidad]*[costo_unit]),
+	[costo_unit] [numeric](18, 2) NULL,
+	[habia] [numeric](18, 2) NULL,
+	[hay] [numeric](18, 2) NULL,
+	[id_caja] [int] NULL,
+ CONSTRAINT [PK__kardex__C333E1861C99437F] PRIMARY KEY CLUSTERED 
+(
+	[id_kardex] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[movimiento_caja_cierre]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[movimiento_caja_cierre](
+	[id_cierre_caja] [int] IDENTITY(1,1) NOT NULL,
+	[fecha_inicio] [datetime] NULL,
+	[fecha_fin] [datetime] NULL,
+	[fecha_cierre] [datetime] NULL,
+	[ingresos] [numeric](18, 2) NULL,
+	[egresos] [numeric](18, 2) NULL,
+	[saldo_en_caja] [numeric](18, 2) NULL,
+	[id_usuario] [int] NULL,
+	[total_calculado] [numeric](18, 2) NULL,
+	[total_real] [numeric](18, 2) NULL,
+	[Estado] [varchar](50) NULL,
+	[diferencia] [numeric](18, 2) NULL,
+	[id_caja] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_cierre_caja] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[productos]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[productos](
+	[id_producto] [int] IDENTITY(1,1) NOT NULL,
+	[descripcion] [varchar](50) NULL,
+	[imagen] [varchar](50) NULL,
+	[id_grupo] [int] NULL,
+	[usar_inventario] [varchar](50) NULL,
+	[stock] [varchar](50) NULL,
+	[precio_de_compra] [numeric](18, 2) NULL,
+	[fecha_de_vencimiento] [varchar](50) NULL,
+	[precio_de_venta] [numeric](18, 2) NULL,
+	[codigo] [varchar](50) NULL,
+	[tipo_venta] [varchar](50) NULL,
+	[impuesto] [varchar](50) NULL,
+	[stock_minimo] [numeric](18, 2) NULL,
+	[precio_mayoreo] [numeric](18, 2) NULL,
+	[sub_total_p_venta]  AS ([precio_de_venta]-([precio_de_venta]*[impuesto])/(100)),
+	[sub_total_p_mayoreo]  AS ([precio_mayoreo]-([precio_mayoreo]*[impuesto])/(100)),
+	[a_partir_de_pm] [numeric](18, 2) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_producto] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[proveedores]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[proveedores](
+	[idproveedor] [int] IDENTITY(1,1) NOT NULL,
+	[nombre] [varchar](max) NULL,
+	[direccion] [varchar](max) NULL,
+	[identificador_fiscal] [varchar](max) NULL,
+	[celular] [varchar](max) NULL,
+	[Estado] [varchar](60) NULL,
+	[saldo] [numeric](18, 2) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[idproveedor] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[serializacion]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[serializacion](
+	[id_serializacion] [int] IDENTITY(1,1) NOT NULL,
+	[serie] [varchar](50) NULL,
+	[cantidad_numeros] [varchar](50) NULL,
+	[numerofin] [varchar](50) NULL,
+	[destino] [varchar](50) NULL,
+	[tipodoc] [varchar](50) NULL,
+	[por_defecto] [varchar](50) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_serializacion] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[ticket]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[ticket](
+	[id_ticket] [int] IDENTITY(1,1) NOT NULL,
+	[id_empresa] [int] NULL,
+	[identificador_fiscal] [varchar](max) NULL,
+	[direccion] [varchar](max) NULL,
+	[provincia_departamento] [varchar](max) NULL,
+	[nombre_de_moneda] [varchar](max) NULL,
+	[agradecimiento] [varchar](max) NULL,
+	[paginas_internet] [varchar](max) NULL,
+	[anuncio] [varchar](max) NULL,
+	[datos_fiscales] [varchar](max) NULL,
+	[por_defecto] [varchar](max) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_ticket] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[usuarios]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[usuarios](
+	[IDusuarios] [int] IDENTITY(1,1) NOT NULL,
+	[nombres_apellidos] [varchar](50) NOT NULL,
+	[login] [varchar](50) NOT NULL,
+	[Password] [varchar](50) NOT NULL,
+	[icono] [image] NOT NULL,
+	[nombre_de_icono] [varchar](max) NOT NULL,
+	[correo] [varchar](max) NOT NULL,
+	[Rol] [varchar](50) NOT NULL,
+	[Estado] [varchar](50) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[IDusuarios] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[ventas]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[ventas](
+	[idventa] [int] IDENTITY(1,1) NOT NULL,
+	[idcliente] [int] NULL,
+	[fecha_venta] [datetime] NULL,
+	[numero_doc] [varchar](100) NULL,
+	[monto_total] [numeric](18, 2) NULL,
+	[tipo_de_pago] [varchar](50) NULL,
+	[Estado] [varchar](50) NULL,
+	[impuesto] [numeric](18, 1) NULL,
+	[comprobante] [varchar](50) NULL,
+	[idusuario] [int] NULL,
+	[fecha_de_pago] [varchar](50) NULL,
+	[accion] [varchar](50) NULL,
+	[saldo] [numeric](18, 2) NULL,
+	[formato_pago] [numeric](18, 2) NULL,
+	[porcentaje_imp] [numeric](18, 2) NULL,
+	[id_caja] [int] NULL,
+	[ref_tarjeta] [varchar](50) NULL,
+	[vuelto] [numeric](18, 2) NULL,
+	[efectivo] [numeric](18, 2) NULL,
+	[credito] [numeric](18, 2) NULL,
+	[tarjeta] [numeric](18, 2) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[idventa] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON ) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[creditos_a_pagar]  WITH CHECK ADD  CONSTRAINT [FK_creditos_a_pagar_caja] FOREIGN KEY([Id_caja])
+REFERENCES [dbo].[caja] ([id_caja])
+GO
+ALTER TABLE [dbo].[creditos_a_pagar] CHECK CONSTRAINT [FK_creditos_a_pagar_caja]
+GO
+ALTER TABLE [dbo].[creditos_a_pagar]  WITH CHECK ADD  CONSTRAINT [FK_creditos_a_pagar_proveedores] FOREIGN KEY([id_proveedor])
+REFERENCES [dbo].[proveedores] ([idproveedor])
+GO
+ALTER TABLE [dbo].[creditos_a_pagar] CHECK CONSTRAINT [FK_creditos_a_pagar_proveedores]
+GO
+ALTER TABLE [dbo].[detalle_venta]  WITH CHECK ADD  CONSTRAINT [FK_detalle_venta_ventas] FOREIGN KEY([idventa])
+REFERENCES [dbo].[ventas] ([idventa])
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[detalle_venta] CHECK CONSTRAINT [FK_detalle_venta_ventas]
+GO
+ALTER TABLE [dbo].[gastos_caja]  WITH CHECK ADD  CONSTRAINT [gastos_caja_id_caja] FOREIGN KEY([id_caja])
+REFERENCES [dbo].[caja] ([id_caja])
+GO
+ALTER TABLE [dbo].[gastos_caja] CHECK CONSTRAINT [gastos_caja_id_caja]
+GO
+ALTER TABLE [dbo].[gastos_caja]  WITH CHECK ADD  CONSTRAINT [gastos_empresa_caja] FOREIGN KEY([id_desc_gasto])
+REFERENCES [dbo].[gastos_empresa] ([id_desc_gasto])
+GO
+ALTER TABLE [dbo].[gastos_caja] CHECK CONSTRAINT [gastos_empresa_caja]
+GO
+ALTER TABLE [dbo].[ingresos_de_caja]  WITH CHECK ADD  CONSTRAINT [llave_caja_ingresos] FOREIGN KEY([id_caja])
+REFERENCES [dbo].[caja] ([id_caja])
+GO
+ALTER TABLE [dbo].[ingresos_de_caja] CHECK CONSTRAINT [llave_caja_ingresos]
+GO
+ALTER TABLE [dbo].[kardex]  WITH CHECK ADD  CONSTRAINT [FK_kardex_caja] FOREIGN KEY([id_caja])
+REFERENCES [dbo].[caja] ([id_caja])
+GO
+ALTER TABLE [dbo].[kardex] CHECK CONSTRAINT [FK_kardex_caja]
+GO
+ALTER TABLE [dbo].[kardex]  WITH CHECK ADD  CONSTRAINT [FK_kardex_productos] FOREIGN KEY([id_producto])
+REFERENCES [dbo].[productos] ([id_producto])
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[kardex] CHECK CONSTRAINT [FK_kardex_productos]
+GO
+ALTER TABLE [dbo].[kardex]  WITH CHECK ADD  CONSTRAINT [FK_kardex_usuarios] FOREIGN KEY([id_usuario])
+REFERENCES [dbo].[usuarios] ([IDusuarios])
+GO
+ALTER TABLE [dbo].[kardex] CHECK CONSTRAINT [FK_kardex_usuarios]
+GO
+ALTER TABLE [dbo].[movimiento_caja_cierre]  WITH CHECK ADD  CONSTRAINT [FK_movimiento_caja_cierre_caja] FOREIGN KEY([id_caja])
+REFERENCES [dbo].[caja] ([id_caja])
+GO
+ALTER TABLE [dbo].[movimiento_caja_cierre] CHECK CONSTRAINT [FK_movimiento_caja_cierre_caja]
+GO
+ALTER TABLE [dbo].[movimiento_caja_cierre]  WITH CHECK ADD  CONSTRAINT [FK_movimiento_caja_cierre_usuarios] FOREIGN KEY([id_usuario])
+REFERENCES [dbo].[usuarios] ([IDusuarios])
+GO
+ALTER TABLE [dbo].[movimiento_caja_cierre] CHECK CONSTRAINT [FK_movimiento_caja_cierre_usuarios]
+GO
+ALTER TABLE [dbo].[productos]  WITH CHECK ADD  CONSTRAINT [FK_productos_grupo_de_productos] FOREIGN KEY([id_grupo])
+REFERENCES [dbo].[grupo_de_productos] ([idline])
+GO
+ALTER TABLE [dbo].[productos] CHECK CONSTRAINT [FK_productos_grupo_de_productos]
+GO
+ALTER TABLE [dbo].[ventas]  WITH CHECK ADD  CONSTRAINT [FK_ventas_caja] FOREIGN KEY([id_caja])
+REFERENCES [dbo].[caja] ([id_caja])
+GO
+ALTER TABLE [dbo].[ventas] CHECK CONSTRAINT [FK_ventas_caja]
+GO
+ALTER TABLE [dbo].[ventas]  WITH CHECK ADD  CONSTRAINT [FK_ventas_clientes] FOREIGN KEY([idcliente])
+REFERENCES [dbo].[clientes] ([idcliente])
+GO
+ALTER TABLE [dbo].[ventas] CHECK CONSTRAINT [FK_ventas_clientes]
+GO
+ALTER TABLE [dbo].[ventas]  WITH CHECK ADD  CONSTRAINT [FK_ventas_usuarios] FOREIGN KEY([idusuario])
+REFERENCES [dbo].[usuarios] ([IDusuarios])
+GO
+ALTER TABLE [dbo].[ventas] CHECK CONSTRAINT [FK_ventas_usuarios]
+GO
+/****** Object:  StoredProcedure [dbo].[actualizar_cliente]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[actualizar_cliente] 
+@idcliente int,
+@nombre varchar(max),
+@direccion_para_factura varchar(max),
+@identificador_fiscal varchar(max),
+@movil varchar(50)
+as
+if exists(select identificador_fiscal from clientes where identificador_fiscal = @identificador_fiscal and idcliente &lt;&gt; @idcliente and @identificador_fiscal &lt;&gt; 'Ninguno')
+raiserror ('Ya existe un cliente con este indentificador fiscal, ingrese uno diferente',16,1)
+else 
+update  clientes set  
+ nombre= @nombre,direccion_para_factura= @direccion_para_factura ,@identificador_fiscal= @identificador_fiscal,movil= @movil
+
+where idcliente = @idcliente
+GO
+/****** Object:  StoredProcedure [dbo].[actualizar_serializacion]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[actualizar_serializacion] 
+@idserie int
+as
+begin
+update serializacion set numerofin = numerofin+1
+where id_serializacion =@idserie
+end
+GO
+/****** Object:  StoredProcedure [dbo].[actualizar_usuario]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create PROCEDURE [dbo].[actualizar_usuario] 
+@idusuarios int,
+@nombres varchar(50),
+@login varchar(50),
+@password varchar(50),
+@icono image,
+@nombre_de_icono varchar(max),
+@correo varchar(max),
+@Rol varchar(50)
+as 
+if exists (select login,IDusuarios from usuarios where (login=@login  and IDusuarios &lt;&gt; @idusuarios and Estado='Activo' ) or (nombres_apellidos =@nombres and IDusuarios &lt;&gt; @idusuarios and Estado='Activo')   )
+raiserror ('Ya existe un usuario con ese nombre de usuario o con ese icono, favor de ingresar uno diferente',16,1)
+ELSE
+update  usuarios set nombres_apellidos=@nombres,login=@login,Password=@password,icono=@icono,nombre_de_icono=@nombre_de_icono,correo=@correo,Rol=@Rol
+where IDusuarios= @idusuarios
+GO
+/****** Object:  StoredProcedure [dbo].[agregar_producto_detalle_venta]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[agregar_producto_detalle_venta]
+   @id_producto int ,
+   @cantidad numeric(18,2),
+   @cantidad_mostrada numeric(18,2),
+   @id_venta int 
+   as 
+   declare @a_partir_pm numeric(18,2)
+   declare @precio_venta numeric(18,2)
+   declare @precio_mayoreo numeric(18,2)
+   set @a_partir_pm =(select a_partir_de_pm from productos where productos.id_producto = @id_producto )
+   set  @precio_venta =   ( select precio_de_venta from productos  where productos.id_producto = @id_producto  )
+   set  @precio_mayoreo =   ( select precio_mayoreo from productos  where productos.id_producto = @id_producto  )
+   print @a_partir_pm
+	print @precio_venta
+	print @precio_mayoreo
+
+	begin 
+	update detalle_venta set cantidad = cantidad + @cantidad ,
+	cantidad_most = cantidad_most + @cantidad_mostrada
+	where detalle_venta.id_producto = @id_producto and detalle_venta .idventa = @id_venta
+	end
+	begin 
+	if exists( select descripcion,cantidad,id_producto,idventa from detalle_venta where cantidad &gt;= @a_partir_pm and detalle_venta.id_producto=@id_producto
+	and detalle_venta.idventa = @id_venta )
+	update detalle_venta set precio_u = @precio_mayoreo 
+	where detalle_venta.id_producto = @id_producto and detalle_venta.idventa = @id_venta and @precio_mayoreo &gt;0 and @a_partir_pm &gt;0
+	end
+	begin 
+	 if exists( select  cantidad from detalle_venta where cantidad &lt;@a_partir_pm and detalle_venta.id_producto=@id_producto and detalle_venta.idventa=@id_venta 
+)
+	 update detalle_venta set precio_u = @precio_venta
+	 where detalle_venta.id_producto = @id_producto and detalle_venta.idventa = @id_venta
+	end
+GO
+/****** Object:  StoredProcedure [dbo].[agregar_producto_detalle_venta_por_cantidad]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+	 create proc [dbo].[agregar_producto_detalle_venta_por_cantidad]
+   @id_producto int ,
+   @cantidad numeric(18,2),
+   @cantidad_mostrada numeric(18,2),
+   @id_venta int 
+   as 
+   declare @a_partir_pm numeric(18,2)
+   declare @precio_venta numeric(18,2)
+   declare @precio_mayoreo numeric(18,2)
+   set @a_partir_pm =(select a_partir_de_pm from productos where productos.id_producto = @id_producto )
+   set  @precio_venta =   ( select precio_de_venta from productos  where productos.id_producto = @id_producto  )
+   set  @precio_mayoreo =   ( select precio_mayoreo from productos  where productos.id_producto = @id_producto  )
+   print @a_partir_pm
+	print @precio_venta
+	print @precio_mayoreo
+
+	begin 
+	update detalle_venta set cantidad =@cantidad ,
+	cantidad_most =@cantidad_mostrada
+	where detalle_venta.id_producto = @id_producto and detalle_venta .idventa = @id_venta
+	end
+	begin 
+	if exists( select descripcion,cantidad,id_producto,idventa from detalle_venta where cantidad &gt;= @a_partir_pm and detalle_venta.id_producto=@id_producto
+	and detalle_venta.idventa = @id_venta )
+	update detalle_venta set precio_u = @precio_mayoreo 
+	where detalle_venta.id_producto = @id_producto and detalle_venta.idventa = @id_venta and @precio_mayoreo &gt;0 and @a_partir_pm &gt;0
+	end
+	begin 
+	 if exists( select  cantidad from detalle_venta where cantidad &lt;@a_partir_pm and detalle_venta.id_producto=@id_producto and detalle_venta.idventa=@id_venta )
+	 update detalle_venta set precio_u = @precio_venta
+	 where detalle_venta.id_producto = @id_producto and detalle_venta.idventa = @id_venta
+	end
+GO
+/****** Object:  StoredProcedure [dbo].[aplicar_precio_mayoreo]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[aplicar_precio_mayoreo]
+@idproducto int,
+@iddetallev int
+as
+begin
+declare @precio_mayoreo numeric(18,2)
+set @precio_mayoreo= (select precio_mayoreo from productos where productos.id_producto = @idproducto)
+if exists (select precio_mayoreo,id_producto from productos where precio_mayoreo=0 and productos.id_producto =@idproducto)
+raiserror('Este producto no esta disponible para ventas en mayoreo',16,1)
+else
+
+update detalle_venta set precio_u=@precio_mayoreo where id_producto =@idproducto and detalle_venta.id_detalle_venta = @iddetallev
+end
+GO
+/****** Object:  StoredProcedure [dbo].[aumentar_saldo_cliente]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[aumentar_saldo_cliente]
+@idcliente int,
+@saldo numeric (18,2)
+as 
+update clientes set saldo =Saldo+@saldo where idcliente =@idcliente
+GO
+/****** Object:  StoredProcedure [dbo].[buscar_cliente_por_nombre_para_ventas]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[buscar_cliente_por_nombre_para_ventas]
+	@letra varchar(50)
+	as 
+	select nombre,idcliente,direccion_para_factura,movil,identificador_fiscal from clientes 
+	where nombre+movil+direccion_para_factura+identificador_fiscal like '%' + @letra+'%' and cliente ='SI' and Estado ='ACTIVO' order by idcliente desc
+GO
+/****** Object:  StoredProcedure [dbo].[buscar_id_usuarios]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[buscar_id_usuarios]
+@nombres_y_apellidos varchar(50)
+as 
+select *from usuarios
+where nombres_apellidos = @nombres_y_apellidos 
+order by IDusuarios desc
+GO
+/****** Object:  StoredProcedure [dbo].[buscar_movimientos_filtros]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[buscar_movimientos_filtros]
+@fecha date,
+@tipo varchar(50),
+@id_usuario int
+as begin
+select kardex.fecha,productos.descripcion,kardex.motivo as movimiento, kardex.habia, kardex.tipo,kardex.cantidad,kardex.hay,usuarios.nombres_apellidos as usuario,grupo_de_productos.linea as categoria
+,usuarios.IDusuarios, @fecha  as fecha_consulta,@tipo as Tipo_consulta, empresa.nombre_empresa, empresa.logo
+from kardex inner join productos on productos.id_producto = kardex.id_producto inner join usuarios on usuarios.IDusuarios = kardex.id_usuario
+cross join empresa
+inner join grupo_de_productos on 
+grupo_de_productos.idline=productos.id_grupo
+
+where kardex.id_usuario =@id_usuario and (kardex.tipo=@tipo or @tipo ='-Todos-') and convert  (date,kardex.fecha) = CONVERT (date,@fecha)
+end
+GO
+/****** Object:  StoredProcedure [dbo].[buscar_movimientos_filtros_acumulados]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[buscar_movimientos_filtros_acumulados]
+@fecha date,
+@tipo varchar(50),
+@id_usuario int
+as begin
+select productos.descripcion, kardex.tipo, sum (kardex.cantidad)cantidad_total , @fecha  as fecha ,usuarios.nombres_apellidos, @tipo as Tipo_consultado
+from kardex inner join productos on productos.id_producto = kardex.id_producto inner join usuarios on usuarios.IDusuarios = kardex.id_usuario
+
+
+where kardex.id_usuario =@id_usuario and (kardex.tipo=@tipo or @tipo ='-Todos') and convert  (date,kardex.fecha) = CONVERT (date,@fecha)
+group by productos.descripcion,kardex.tipo,usuarios.nombres_apellidos
+order by sum(kardex.cantidad) desc
+end
+GO
+/****** Object:  StoredProcedure [dbo].[buscar_movimientos_kardex]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[buscar_movimientos_kardex]
+@idproducto int
+as begin
+select kardex.fecha,productos.descripcion,kardex.motivo as movimiento, kardex.habia, kardex.tipo,kardex.cantidad,kardex.hay,usuarios.nombres_apellidos as cajero,grupo_de_productos.linea as categoria
+,empresa.nombre_empresa,empresa.logo
+from kardex inner join productos on productos.id_producto = kardex.id_producto inner join usuarios on usuarios.IDusuarios = kardex.id_usuario
+
+cross join empresa
+inner join grupo_de_productos on 
+grupo_de_productos.idline=productos.id_grupo
+
+where productos.id_producto=@idproducto order by kardex.fecha desc 
+
+end 
+GO
+/****** Object:  StoredProcedure [dbo].[buscar_producto_por_descripcion]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROC [dbo].[buscar_producto_por_descripcion]
+@letra VARCHAR(50)
+AS BEGIN
+select top 10[id_producto] ,Codigo , Grupo_de_Productos.linea as Grupo,descripcion ,impuesto,usar_inventario ,[precio_de_compra] AS P_Compra,[precio_mayoreo] as P_mayoreo, [a_partir_de_pm]as Se_vende_por,stock_minimo ,fecha_de_vencimiento as F_vencimiento ,stock, [precio_de_venta]as P_venta 
+,grupo_de_productos.idline,[a_partir_de_pm] , tipo_venta
+
+FROM          productos
+INNER JOIN grupo_de_Productos on
+Grupo_de_Productos.Idline=productos.id_grupo
+              
+WHEre (dbo.productos.descripcion)+codigo +grupo_de_Productos.linea   LIKE  '%' + @letra+'%' ORDER BY DBO.productos.descripcion  
+end
+GO
+/****** Object:  StoredProcedure [dbo].[buscar_productos]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[buscar_productos]
+@letra varchar(50)
+as
+ begin
+ select top 10 [id_producto],(descripcion +'/Precio:'+empresa.moneda +' '+ CONVERT(varchar(50),[precio_de_venta]) +'/Codigo: ' + codigo) as descripcion
+ ,usar_inventario,stock,precio_de_compra,precio_de_venta,codigo,tipo_venta,descripcion as descripcion,a_partir_de_pm  from productos cross join empresa
+
+ inner join grupo_de_productos on grupo_de_productos.idline=productos.id_grupo
+ where (descripcion+' /Precio: '+ empresa.moneda + ' ' + CONVERT(varchar(50),[precio_de_venta]) +' /Codigo: '+ codigo ) like '%' + @letra+ '%'
+ end
+GO
+/****** Object:  StoredProcedure [dbo].[buscar_productos_kardex]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[buscar_productos_kardex]
+@letra VARCHAR(50)
+AS 
+select top 10[id_producto] ,descripcion as descripcion, imagen,grupo_de_productos.linea,usar_inventario,stock,sub_total_p_mayoreo,precio_de_compra,precio_de_venta,
+fecha_de_vencimiento,codigo,tipo_venta,impuesto,stock_minimo,precio_mayoreo,sub_total_p_mayoreo,sub_total_p_venta
+FROM          productos
+INNER JOIN grupo_de_Productos on
+Grupo_de_Productos.Idline=productos.id_grupo
+              
+WHEre (descripcion + grupo_de_productos.linea + codigo)  LIKE  '%' + @letra+'%' and usar_inventario ='Si'
+GO
+/****** Object:  StoredProcedure [dbo].[buscar_tipo_de_documentos_para_ventas]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[buscar_tipo_de_documentos_para_ventas]
+@letra varchar(50)
+as
+begin
+select serializacion.tipodoc as comprobante, serializacion.serie,serializacion.cantidad_numeros,serializacion.numerofin,serializacion.id_serializacion,
+serializacion.serie+' - ' + serializacion.cantidad_numeros + serializacion.numerofin as serie_completa
+from serializacion 
+where serializacion.tipodoc = @letra and serializacion.destino = 'VENTAS'
+end
+GO
+/****** Object:  StoredProcedure [dbo].[buscar_usuario]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[buscar_usuario] 
+@letras varchar(50)
+as 
+select IDusuarios, nombres_apellidos, login,Password,icono,nombre_de_icono,correo,Rol from usuarios 
+where nombres_apellidos + login  like '%' + @letras +'%' and Estado = 'Activo'
+select * from usuarios where Estado='Activo'
+GO
+/****** Object:  StoredProcedure [dbo].[cambiar_caja]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[cambiar_caja]
+@idcaja int,
+@idventa int
+as 
+begin 
+update ventas set id_caja = @idcaja where idventa =@idventa
+end
+GO
+/****** Object:  StoredProcedure [dbo].[cambiar_eleccion_impresora]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[cambiar_eleccion_impresora] 
+@idcaja int,
+@impresora_para_ticket varchar(max)
+as 
+update caja set 
+impresora_ticket = @impresora_para_ticket where id_caja = @idcaja
+GO
+/****** Object:  StoredProcedure [dbo].[cerrar_caja]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ CREATE proc [dbo].[cerrar_caja]
+ @idcaja  as integer,
+ @fechafin datetime,
+ @fechacierre datetime,
+ @ingesos numeric(18,2),
+ @egresos numeric(18,2),
+ @saldo_en_caja numeric (18,2),
+ @id_usuario int,
+ @total_calculado numeric (18,2),
+ @total_real numeric (18,2),
+ @Estado varchar(50),
+ @diferencia numeric (18,2)
+ as 
+ begin
+ update movimiento_caja_cierre set 
+ fecha_fin= @fechafin ,
+fecha_cierre= @fechacierre ,
+ ingresos= @ingesos,
+ egresos= @egresos ,
+ saldo_en_caja= @saldo_en_caja ,
+id_usuario= @id_usuario ,
+total_calculado= @total_calculado  ,
+total_real= @total_real ,
+Estado= @Estado ,
+diferencia= @diferencia 
+where id_caja = @idcaja
+ end
+GO
+/****** Object:  StoredProcedure [dbo].[confirmar_venta]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[confirmar_venta]
+	@idventa int,
+ @idcliente as int,
+ @fecha_venta datetime,
+ @numero_documento varchar(100),
+ @monto_total numeric(18,2),
+ @tipo_de_pago varchar(50),
+ @estado varchar(50),
+ @impuesto numeric(18,2),
+ @comprobante varchar(50),
+ @fecha_pago varchar(50),
+ @accion varchar(50),
+ @saldo numeric(18,2),
+ @formato_pago numeric(18,2),
+ @ref_tarjeta varchar(50),
+@vuelto numeric(18,2),
+  @efectivo numeric(18,2),
+  @credito numeric(18,2),
+  @tarjeta numeric(18,2)
+ as 
+
+begin 
+if exists (select numero_doc from ventas where numero_doc = @numero_documento)
+raiserror('Ya existe un comprobante con ese numero de serie',16,1)
+else
+begin
+update ventas set monto_total =@monto_total, impuesto = @impuesto,saldo=@saldo,tipo_de_pago =@tipo_de_pago,
+Estado =@estado,comprobante =@comprobante, numero_doc = @numero_documento, fecha_venta = @fecha_venta,accion = @accion,
+fecha_de_pago = @fecha_pago,idcliente=@idcliente,formato_pago =@formato_pago, ref_tarjeta = @ref_tarjeta, vuelto = @vuelto, efectivo = @efectivo, credito =@credito, tarjeta = @tarjeta
+where idventa =@idventa
+end
+end 
+GO
+/****** Object:  StoredProcedure [dbo].[detalle_venta_aumentar_stock]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[detalle_venta_aumentar_stock] 
+@id_producto int ,
+@cantidad numeric (18,2)
+as 
+begin
+update detalle_venta set stock = stock+@cantidad where id_producto = @id_producto and stock &lt;&gt;'Ilimitado' 
+end
+GO
+/****** Object:  StoredProcedure [dbo].[detalle_venta_disminuir_stock]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[detalle_venta_disminuir_stock] 
+@id_producto int ,
+@cantidad numeric (18,2)
+as 
+begin
+update detalle_venta set stock = stock- @cantidad where id_producto = @id_producto and stock &lt;&gt;'Ilimitado' 
+end
+GO
+/****** Object:  StoredProcedure [dbo].[disminuir_stock_productos]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[disminuir_stock_productos] 
+@idproducto int ,
+@cantidad numeric (18,2)
+as 
+begin
+update productos set stock= stock-@cantidad where id_producto = @idproducto and usar_inventario ='Si' and stock&gt;=@cantidad
+end
+GO
+/****** Object:  StoredProcedure [dbo].[editar_caja]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[editar_caja]
+@idcaja int,
+@descripcion varchar(50)
+as
+ if exists (select descripcion from caja where (descripcion = @descripcion and id_caja=@idcaja))
+ raiserror('Ya existe una caja con ese nombre, por favor ingrese uno nuevo',16,1)
+ else 
+ update caja set descripcion = @descripcion where id_caja = @idcaja
+GO
+/****** Object:  StoredProcedure [dbo].[editar_dinero_caja_inicial]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ create proc [dbo].[editar_dinero_caja_inicial] 
+ @id_caja as integer,
+ @saldo numeric(18,2)
+ as 
+ update movimiento_caja_cierre set saldo_en_caja=@saldo
+ where id_caja=@id_caja and Estado='Caja Aperturada'
+GO
+/****** Object:  StoredProcedure [dbo].[editar_empresa]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[editar_empresa] 
+@nombre_empresa varchar(50),
+@logo image,
+@impuesto varchar(50),
+@porcentaje_impuesto varchar(50),
+@moneda varchar(50),
+@trabajas_con_impuestos varchar(50),
+@modo_de_busqueda varchar(50),
+@carpeta_para_copia_seguridad varchar (max),
+@correo_para_enviar_reportes varchar(max),
+@pais varchar(max)
+as 
+update empresa set nombre_empresa = @nombre_empresa, logo = @logo, impuesto = @impuesto, porcentaje_impuesto = @porcentaje_impuesto,moneda = @moneda,
+trabajas_con_impuestos = @trabajas_con_impuestos, modo_de_busqueda = @modo_de_busqueda,carpeta_para_copiar_seguridad = @carpeta_para_copia_seguridad,
+correo_para_enviar_reportes = @correo_para_enviar_reportes, pais = @pais
+GO
+/****** Object:  StoredProcedure [dbo].[editar_formato_ticket]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ create proc [dbo].[editar_formato_ticket]
+ @identificador_fiscal varchar(max),
+ @direccion varchar(max),
+ @provincia_departamento varchar(max),
+ @nombre_de_moneda varchar(max),
+ @agradecimiento varchar(max),
+ @paginas_internet varchar(max),
+ @anuncio varchar(max),
+ @datos_fiscales varchar(max),
+ @por_defecto varchar(max),
+ @nombre_empresa varchar(max),
+ @telefono bigint,
+ @logo image
+ as 
+ begin 
+ update ticket set 
+ identificador_fiscal = @identificador_fiscal,direccion =@direccion, provincia_departamento = @provincia_departamento, nombre_de_moneda = @nombre_de_moneda,
+ paginas_internet = @paginas_internet, anuncio = @anuncio,datos_fiscales=@datos_fiscales,por_defecto =@por_defecto
+ end
+ begin
+ update empresa set nombre_empresa = @nombre_de_moneda, logo= @logo, telefono = @telefono
+ end 
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[editar_grupo]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+	create procedure [dbo].[editar_grupo]
+			@id int,
+			@grupo varchar(50)
+			as 
+			if exists (select linea from grupo_de_productos where linea = @grupo and idline &lt;&gt;@id)
+			raiserror ('Ya existe un grupo con este nombre, ingrese uno diferente',16,1)
+			else 
+			update grupo_de_productos set linea=@grupo
+			where idline =@id
+GO
+/****** Object:  StoredProcedure [dbo].[editar_inicio_sesion]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [dbo].[editar_inicio_sesion]
+@serial_pc varchar(max),
+@id_usuario int
+
+as 
+update inicio_sesion_por_caja set id_usuario = @id_usuario
+where id_serial_pc =@serial_pc
+GO
+/****** Object:  StoredProcedure [dbo].[editar_precios_productos]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+   CREATE proc [dbo].[editar_precios_productos]
+   @idproductos int,
+   @precioventa numeric(18,2),
+   @costo numeric (18,2),
+   @preciomayoreo numeric(18,2),
+   @cantidad_a numeric(18,2)
+   as
+   update productos set precio_de_venta = @precioventa,
+   precio_de_compra = @costo,
+   precio_mayoreo = @preciomayoreo,
+   stock =  @cantidad_a 
+   where id_producto = @idproductos and usar_inventario ='Si'
+GO
+/****** Object:  StoredProcedure [dbo].[editar_producto]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+		   CREATE proc [dbo].[editar_producto] 
+		  @Id_Producto int,
+ @Descripcion varchar(50),
+   @Imagen varchar(50),			         
+          @Id_grupo INT,
+		  @Usar_inventario varchar(50),
+	  @Stock varchar(50),
+           @Precio_de_compra numeric(18,2),
+           @Fecha_de_vencimiento varchar(50),
+           @Precio_de_venta numeric(18,2),
+           @Codigo varchar(50),
+           @tipo_venta varchar(50),
+           @Impuesto varchar(50),
+           @Stock_minimo numeric(18,2),
+           @Precio_mayoreo numeric(18,2)
+		 	,@A_partir_de_pm numeric(18,2)
+			as 
+			if exists ( select descripcion from productos where (descripcion =@Descripcion and id_producto &lt;&gt;@Id_Producto))
+			raiserror ( 'Ya existe un producto con ese nombre', 16,1)
+			else if exists (select codigo from productos where  (codigo= @codigo and id_producto &lt;&gt;@Id_Producto))
+			raiserror ('Ya existe un producto con ese codigo, favor de generar uno nuevo',16,1)
+			else if exists (select descripcion,codigo from productos where (descripcion &lt;&gt; @Descripcion and @Id_Producto = @Id_Producto) 
+			or (codigo&lt;&gt;@Codigo and id_producto =@Id_Producto))
+			update productos set 
+			descripcion=@Descripcion,
+			imagen =@Imagen,
+			id_grupo =@Id_grupo,
+			usar_inventario=@Usar_inventario,
+			stock= @Stock,
+			precio_de_compra=@Precio_de_compra,
+			fecha_de_vencimiento=@Fecha_de_vencimiento,
+			precio_de_venta=@Precio_de_venta,
+			codigo=@Codigo,
+			tipo_venta=@tipo_venta,
+			impuesto=@Impuesto,
+			stock_minimo=@Stock_minimo,
+			precio_mayoreo=@Precio_mayoreo,
+			a_partir_de_pm =@A_partir_de_pm
+			where id_producto =@Id_Producto
+GO
+/****** Object:  StoredProcedure [dbo].[editar_serializacion]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[editar_serializacion]
+@serie varchar(50),
+@cantidad_numeros varchar(50),
+@numero_fin varchar(50),
+@tipo_doc varchar(50),
+@id_serie int
+as
+update serializacion set serie = @serie, cantidad_numeros = @cantidad_numeros, numerofin = @numero_fin, tipodoc = @tipo_doc where id_serializacion = @id_serie
+GO
+/****** Object:  StoredProcedure [dbo].[editar_serializacion_por_defecto]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[editar_serializacion_por_defecto]
+@idserie int
+as 
+begin 
+update serializacion set por_defecto ='-'
+end
+begin 
+update serializacion set por_defecto='SI'
+where id_serializacion=@idserie
+end
+GO
+/****** Object:  StoredProcedure [dbo].[eliminar_caja]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[eliminar_caja]
+@idcaja int
+as 
+update caja set Estado = 'Caja eliminada'
+where id_caja = @idcaja
+GO
+/****** Object:  StoredProcedure [dbo].[eliminar_cliente]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[eliminar_cliente] 
+@idcliente int
+as 
+update clientes set Estado	='Eliminado'
+where idcliente= @idcliente and Estado = 'ACTIVO'
+GO
+/****** Object:  StoredProcedure [dbo].[eliminar_comprobantes]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[eliminar_comprobantes]
+@id_serie int
+as
+if exists(select destino from serializacion where destino &lt;&gt;'OTROS' and id_serializacion =@id_serie)
+raiserror('La eliminacion de este comprobante puede ocacionar errores por lo tanto no puede ser eliminado',16,1)
+else
+
+delete from serializacion where id_serializacion = @id_serie  and destino ='OTROS'
+GO
+/****** Object:  StoredProcedure [dbo].[eliminar_detalle_venta]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ create proc [dbo].[eliminar_detalle_venta] 
+  @id_detalleventa int
+  as
+   delete detalle_venta where @id_detalleventa= id_detalle_venta
+GO
+/****** Object:  StoredProcedure [dbo].[eliminar_producto]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+				create proc [dbo].[eliminar_producto] 
+		@id_producto int
+		as 
+		delete from productos where id_producto=@id_producto 
+GO
+/****** Object:  StoredProcedure [dbo].[eliminar_usuario]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[eliminar_usuario] 
+@idusuario int,
+@login varchar(50)
+as 
+if exists (select login from usuarios where @login ='admin')
+raiserror('EL usuario administrador no se puede eliminar',16,1)
+else
+update usuarios set Estado='Eliminado' where IDusuarios=@idusuario and login &lt;&gt; 'admin'
+GO
+/****** Object:  StoredProcedure [dbo].[eliminar_venta]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+	create proc [dbo].[eliminar_venta]
+	@idventa int
+	as
+	delete from ventas where idventa = @idventa
+	
+GO
+/****** Object:  StoredProcedure [dbo].[ganancias_fecha]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ create proc [dbo].[ganancias_fecha]
+ @fi date,
+ @ff date
+ as 
+ begin
+ select CONVERT(numeric(18,2), sum(ganancia)) from detalle_venta
+ inner join ventas on ventas.idventa = detalle_venta.idventa where CONVERT(date,fecha_venta) &gt;=@fi and CONVERT(date,fecha_venta)&lt;=@ff
+ end
+GO
+/****** Object:  StoredProcedure [dbo].[imprimir_todos_inventarios]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE proc [dbo].[imprimir_todos_inventarios]
+
+as  
+select codigo,descripcion,precio_de_compra as precio_de_compra,precio_de_venta as precio_de_venta, stock,stock_minimo as stock_minimo,grupo_de_productos.linea
+as categoria,precio_de_compra*stock as importe, empresa.nombre_empresa,empresa.logo 
+from productos
+cross join empresa 
+inner join grupo_de_productos on grupo_de_productos.idline =productos.id_grupo
+where stock &lt;&gt; 'Ilimitado'
+GO
+/****** Object:  StoredProcedure [dbo].[insert_grupo]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+	create procedure [dbo].[insert_grupo]
+			@grupo varchar(50),
+			@por_defecto varchar(50)
+			as 
+			if exists(select linea from grupo_de_productos where linea =@grupo)
+			raiserror ('Ya existe un grupo con ese nombre, ingrese uno diferente',16,1)
+			else 
+			insert into grupo_de_productos values (@grupo,@por_defecto)
+GO
+/****** Object:  StoredProcedure [dbo].[insertar_caja]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[insertar_caja]
+@descripcion varchar(100),
+@tema varchar(50),
+@serial_pc varchar(max),
+@impresora_ticket varchar(max),
+@impresora_a4 varchar(max),
+@tipo varchar(50)
+as 
+if exists(select descripcion,serial_pc from caja where descripcion= @descripcion and serial_pc=@serial_pc) 
+raiserror('Ya existe una caja con ese nombre o esta pc ya tiene asignado un nombre de caja, ingrese un nombre diferente o intente de nuevo ',16,1)
+else 
+declare @estado as varchar(50)
+set @estado ='RECIEN CREADA'
+insert into caja values (@descripcion,@tema,@serial_pc,@impresora_ticket,@impresora_a4,@tipo,@estado)
+GO
+/****** Object:  StoredProcedure [dbo].[insertar_cliente]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[insertar_cliente] 
+@nombre varchar(max),
+@direccion_para_factura varchar(max),
+@identificador_fiscal varchar(max),
+@movil varchar(50),
+@cliente varchar(50),
+@Estado varchar(50),
+@Saldo numeric(18,2)
+as
+if exists(select identificador_fiscal from clientes where identificador_fiscal = @identificador_fiscal and @identificador_fiscal &lt;&gt; 'Ninguno')
+raiserror ('Ya existe un cliente con esos datos',16,1)
+else 
+insert into clientes values (
+@nombre,@direccion_para_factura ,@identificador_fiscal,@movil,@cliente,@Estado,@Saldo
+)
+
+GO
+/****** Object:  StoredProcedure [dbo].[insertar_creditos_pagar]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ create proc [dbo].[insertar_creditos_pagar]
+ @descripcion varchar(max),
+ @fecha_registro datetime,
+ @fecha_vencimiento date,
+ @total numeric(18,2),
+ @saldo numeric(18,2),
+ @estado varchar(max),
+ @idcaja int,
+ @idproveedor int
+ as 
+ begin
+ insert into [dbo].[creditos_a_pagar] values(@descripcion,@fecha_registro,@fecha_vencimiento,@total,@saldo,@estado,@idcaja,@idproveedor)
+ end
+GO
+/****** Object:  StoredProcedure [dbo].[insertar_detalle_cierre_de_caja]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [dbo].[insertar_detalle_cierre_de_caja]
+
+@fecha_inicio datetime,
+@fecha_fin datetime,
+@fecha_cierre datetime,
+@ingresos numeric (18,2),
+@egresos  numeric (18,2),
+@saldo_en_caja  numeric (18,2),
+@id_usuario int,
+@total_calculado  numeric (18,2),
+@total_real  numeric (18,2),
+
+@Estado as varchar(50),
+@diferencia  as numeric (18,2),
+@id_caja as int
+as begin 
+
+if exists (select Estado From movimiento_caja_cierre
+where movimiento_caja_cierre.Estado='Caja Aperturada')
+RAISERROR ('Ya fue iniciado el turno de la caja',16,1)
+else 
+
+begin 
+insert into movimiento_caja_cierre values 
+(
+@fecha_inicio,
+@fecha_fin,
+@fecha_cierre,
+@ingresos,
+@egresos,
+@saldo_en_caja
+,@id_usuario,
+@total_calculado
+,@total_real
+
+,@Estado,
+@diferencia,
+@id_caja) 
+end
+end  
+ 
+GO
+/****** Object:  StoredProcedure [dbo].[insertar_detalle_venta]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[insertar_detalle_venta] 
+ @idventa  int,
+ @id_producto int,
+ @cantidad numeric(18,2),
+ @precio_u numeric(18,2),
+ @moneda varchar(50),
+ @unidades varchar(50),
+ @cantidad_most varchar(50),
+ @Estado varchar(50),
+ @descripcion  varchar(50),
+ @codigo  varchar(50),
+ @stock  varchar(50),
+ @tipo_venta  varchar(50),
+ @usa_inventario  varchar(50),
+ @costo numeric(18,2)
+ as 
+BEGIN 
+ if EXISTS (SELECT idventa,detalle_venta.id_producto from detalle_venta 
+ inner join productos on productos.id_producto = detalle_venta.id_producto where productos.id_producto = @id_producto and idventa = @idventa)
+ update detalle_venta set 
+ cantidad = cantidad + @cantidad,
+ [cantidad_most] = [cantidad_most] + @cantidad_most
+ where [id_producto] = @id_producto
+ else 
+ begin 
+ insert into [dbo].[detalle_venta]
+ values ( @idventa,@id_producto,@cantidad,@precio_u,@moneda,@unidades,@cantidad_most,@Estado,@descripcion,@codigo,@stock,@tipo_venta,@usa_inventario,@costo)
+ end
+ end 
+GO
+/****** Object:  StoredProcedure [dbo].[insertar_empresa]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[insertar_empresa]
+@nombre_empresa varchar(50),
+@logo image,
+@impuesto varchar(50),
+@porcentaje_impuesto varchar(50),
+@moneda varchar(50),
+@trabajas_con_impuestos varchar(50),
+@modo_de_busqueda varchar(50),
+@carpeta_para_copia_seguridad varchar (50),
+@correo_para_enviar_reportes varchar(max),
+@ultima_copia_seguridad varchar(50),
+@ultima_copia_date datetime,
+@frecuencia_copias int,
+@Estado varchar(50),
+@tipo_de_empresa varchar(50),
+@pais varchar (max),
+@redondeo_de_total varchar(50),
+@telefono bigint
+as 
+if exists(select [nombre_empresa] from empresa where nombre_empresa=@nombre_empresa)
+raiserror('ya existe una empresa con ese nombre, ingrese uno diferente',16,1)
+else 
+insert into empresa values(
+@nombre_empresa ,@logo,@impuesto,@porcentaje_impuesto,@moneda,@trabajas_con_impuestos,@modo_de_busqueda,@carpeta_para_copia_seguridad,@correo_para_enviar_reportes,
+@ultima_copia_seguridad,@ultima_copia_date ,@frecuencia_copias,@Estado ,@tipo_de_empresa ,@pais,@redondeo_de_total,@telefono )
+GO
+/****** Object:  StoredProcedure [dbo].[insertar_formato_ticket]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[insertar_formato_ticket] 
+@identificador_fiscal varchar(max),
+@direccion varchar(max),
+@provincia_departamento varchar(max),
+@nombre_de_moneda varchar(max),@agradecimiento varchar(max),@paginas_internet varchar(max),@anuncio varchar(max),@datos_fiscales varchar(max),
+@por_defecto varchar(max)
+as 
+declare @id_empresa int =(select id_empresa from empresa)
+insert into ticket values 
+
+( @id_empresa ,@identificador_fiscal ,@direccion ,@provincia_departamento,@nombre_de_moneda,@agradecimiento,@paginas_internet ,@anuncio,@datos_fiscales, @por_defecto 
+
+)
+GO
+/****** Object:  StoredProcedure [dbo].[insertar_inicio_sesion]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [dbo].[insertar_inicio_sesion]
+@serial_pc varchar(max)
+as 
+declare @id_usuario_n as int 
+set @id_usuario_n = (select [IDusuarios] from usuarios)
+insert into inicio_sesion_por_caja values (@serial_pc,@id_usuario_n)
+GO
+/****** Object:  StoredProcedure [dbo].[insertar_marca]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[insertar_marca] 
+@ps varchar(max),
+@d varchar(max),
+@e varchar(max),
+@da varchar(max) 
+as 
+insert into marcan values (@ps ,
+@d ,
+@e ,
+@da )
+GO
+/****** Object:  StoredProcedure [dbo].[insertar_producto]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+    CREATE procedure [dbo].[insertar_producto] 
+     @Descripcion varchar(50),
+		    @Imagen varchar(50),			         
+          @Id_grupo as int	,
+		  @Usar_inventario varchar(50),
+		   @Stock varchar(50),
+           @Precio_de_compra numeric(18,2),
+           @Fecha_de_vencimiento varchar(50),
+           @Precio_de_venta numeric(18,2),
+           @Codigo varchar(50),
+           @Tipo_venta varchar(50),
+           @Impuesto varchar(50),
+           @Stock_minimo numeric(18,2),
+           @Precio_mayoreo numeric(18,2),
+		   @A_partir_de_pm numeric(18,2),
+
+		   --tabla kardex
+		   @fecha datetime,
+		   @motivo varchar(200),
+		   @cantidad as numeric(18,0),
+		   @id_usuario int,
+		   @tipo as varchar(50),
+		   @Estado varchar(50),
+		   @id_caja int
+
+		
+		   as 
+		   begin
+		   if exists(select descripcion, codigo  from productos where descripcion = @Descripcion and codigo = @Codigo)
+		   raiserror ('ya existe un producto con ese nombre o con ese codigo, favor de ingresar un nuevo nombre o generar otro codigo',16,1)
+		   else 
+		   begin 
+		   declare @id_producto int 
+
+		   insert into productos 
+		   values (
+		    @Descripcion ,
+		    @Imagen,			         
+          @Id_grupo 	,
+		  @Usar_inventario ,
+		   @Stock ,
+           @Precio_de_compra ,
+           @Fecha_de_vencimiento ,
+           @Precio_de_venta ,
+           @Codigo ,
+           @Tipo_venta ,
+           @Impuesto ,
+           @Stock_minimo ,
+           @Precio_mayoreo ,
+		   @A_partir_de_pm
+
+		   )
+		
+		   select @id_producto =SCOPE_IDENTITY()
+		   declare @hay as numeric(18,2)
+		   declare @habia as numeric(18,2)
+		   declare @costo_unt numeric (18,2)
+
+		   set @hay = (select stock from productos where productos.id_producto=@id_producto and productos.usar_inventario='Si')
+		   set @costo_unt = (select productos.precio_de_compra from productos where productos.id_producto =@id_producto and productos.usar_inventario ='Si')
+		   set @habia = @hay
+		   --saber si usa inventario o no
+		   set @Usar_inventario = (select usar_inventario from productos where productos.id_producto =@id_producto and productos.usar_inventario = 'Si')
+		   if @Usar_inventario = 'Si'
+		   begin 
+		   insert into kardex 
+		   values (
+		  @fecha,
+		   @motivo,
+		   @cantidad,
+		   @id_producto,
+		   @id_usuario,
+		   @tipo,
+		   @estado,
+		   @costo_unt,
+		   @habia,
+		   @hay,
+		   @id_caja
+		   )
+		   end
+
+		   end 
+		   end
+		   
+GO
+/****** Object:  StoredProcedure [dbo].[insertar_producto_por_importacion]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[insertar_producto_por_importacion]
+     @Descripcion varchar(50),
+		    @Imagen varchar(50),			         
+		  @Usar_inventario varchar(50),
+		   @Stock varchar(50),
+           @Precio_de_compra numeric(18,2),
+           @Fecha_de_vencimiento varchar(50),
+           @Precio_de_venta numeric(18,2),
+           @Codigo varchar(50),
+           @Tipo_venta varchar(50),
+           @Impuesto varchar(50),
+           @Stock_minimo numeric(18,2),
+           @Precio_mayoreo numeric(18,2),
+		   @A_partir_de_pm numeric(18,2),
+		   
+		   --tabla kardex
+		   @fecha datetime,
+		   @motivo varchar(200),
+		   @cantidad as numeric(18,0),
+		   @id_usuario int,
+		   @tipo as varchar(50),
+		   @Estado varchar(50),
+		   @id_caja int
+		   as 
+		   declare @idgrupo int
+				   set @Idgrupo = (select idline from grupo_de_productos where grupo_de_productos.linea = 'General')
+		   begin
+		   if exists(select descripcion, codigo  from productos where (descripcion = @Descripcion and codigo = @Codigo) or descripcion='' )
+		  select top 0 *from productos
+		   else 
+		   begin 
+		   declare @id_producto int 
+		   insert into productos 
+		   values (
+		    @Descripcion ,
+		    @Imagen,			         
+          @idgrupo 	,
+		  @Usar_inventario ,
+		   @Stock ,
+           @Precio_de_compra ,
+           @Fecha_de_vencimiento,
+           @Precio_de_venta ,
+           @Codigo ,
+           @Tipo_venta ,
+           @Impuesto ,
+           @Stock_minimo ,
+           @Precio_mayoreo ,
+		   @A_partir_de_pm
+		   )	
+		   select @id_producto =SCOPE_IDENTITY()
+		   declare @hay as numeric(18,2)
+		   declare @habia as numeric(18,2)
+		   declare @costo_unt numeric (18,2)
+
+		   set @hay = (select stock from productos where productos.id_producto=@id_producto and productos.usar_inventario='Si')
+		   set @costo_unt = (select productos.precio_de_compra from productos where productos.id_producto =@id_producto and productos.usar_inventario ='Si')
+		   set @habia = @hay
+		   --saber si usa inventario o no
+		   set @Usar_inventario = (select usar_inventario from productos where productos.id_producto =@id_producto and productos.usar_inventario = 'Si')
+		   if @Usar_inventario = 'Si'
+		   begin 
+		   insert into kardex 
+		   values (
+		  @fecha,
+		   @motivo,
+		   @cantidad,
+		   @id_producto,
+		   @id_usuario,
+		   @tipo,
+		   @estado,
+		   @costo_unt,
+		   @habia,
+		   @hay,
+		   @id_caja
+		   )
+		   end
+		   begin 
+		   update productos set codigo = @id_producto
+		   where codigo ='Vacio'
+		   end
+		   begin 
+		   delete from productos where descripcion = 'Vacio'
+		   end
+		   end 
+		   end
+GO
+/****** Object:  StoredProcedure [dbo].[insertar_salida_kardex]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[insertar_salida_kardex]
+@fecha datetime,
+@motivo varchar(max),
+@id_producto int,
+@tipo varchar(50),
+@cantidad numeric(18,2),
+@id_usuario int,
+@estado varchar(max),
+@id_caja int
+
+as 
+begin 
+declare @habia numeric(18,2)
+declare @hay numeric(18,2)
+declare @costo_unit numeric(18,2)
+set @hay = (select stock from productos where id_producto = @id_producto and usar_inventario='Si')
+set @costo_unit = (select precio_de_compra from productos where id_producto = @id_producto and usar_inventario='Si')
+set @habia = @hay+@cantidad 
+begin 
+insert into kardex values (@fecha,@motivo,@cantidad,@id_producto,@id_usuario,@tipo,@estado,@costo_unit,@habia,@hay,@id_caja)
+end
+end
+GO
+/****** Object:  StoredProcedure [dbo].[insertar_serializacion]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [dbo].[insertar_serializacion]
+@serie varchar(50),
+@numeroinicio varchar(50),
+@numerofin varchar(50),
+@destino varchar(50), 
+@tipo_doc varchar(50),
+@por_defecto varchar(50)
+as 
+if exists (select  tipodoc  from [dbo].[serializacion] where tipodoc = @tipo_doc)
+raiserror('YA EXISTE ESTE COMRPOBANTE,INGRESE UNO NUEVO',16,1)
+else insert into 
+serializacion values (@serie,@numeroinicio,@numerofin,@destino,@tipo_doc,@por_defecto)
+GO
+/****** Object:  StoredProcedure [dbo].[insertar_usuario]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create PROCEDURE [dbo].[insertar_usuario] 
+@nombres varchar(50),
+@login varchar(50),
+@password varchar(50),
+@icono image,
+@nombre_de_icono varchar(max),
+@correo varchar(max),
+@Rol varchar(50),
+@Estado varchar(max)
+as 
+if exists (select login from usuarios where login=@login and Estado='Activo' )
+raiserror ('Ya existe un usuario con ese nombre de usuario o con ese icono, favor de ingresar uno diferente',16,1)
+ELSE
+insert into usuarios 
+values(@nombres,@login,@password,@icono,@nombre_de_icono,@correo,@Rol,@Estado)
+GO
+/****** Object:  StoredProcedure [dbo].[insertar_venta]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[insertar_venta]
+ @idcliente as int,
+ @fecha_venta datetime,
+ @numero_documento varchar(100),
+ @monto_total numeric(18,2),
+ @tipo_de_pago varchar(50),
+ @estado varchar(50),
+ @impuesto numeric(18,1),
+ @comprobante varchar(50),
+ @id_usuario int,
+ @fecha_pago varchar(50),
+ @accion varchar(50),
+ @saldo numeric(18,2),
+ @formato_pago numeric(18,2),
+ @porcentaje_imp numeric(18,2),
+ @id_caja int,
+ @ref_tarjeta varchar(50)
+
+ as 
+ declare @vuelto numeric(18,2)
+ declare @efectivo numeric(18,2)
+ declare @id_numero varchar(50)
+ declare @credito numeric(18,2)
+ declare @tarjeta numeric(18,2)
+ set @vuelto =0
+ set @efectivo=0
+ set @id_numero= (select max(idventa)+1 from ventas)
+ set @credito =0
+ set @tarjeta =0
+ insert into ventas 
+ values (@idcliente,@fecha_venta,@numero_documento,@monto_total,@tipo_de_pago,@estado,@impuesto,@comprobante +' '+ @id_numero, @id_usuario,@fecha_pago,@accion,
+ @saldo,@formato_pago,@porcentaje_imp,@id_caja,@ref_tarjeta, @vuelto,@efectivo,@credito,@tarjeta)
+GO
+/****** Object:  StoredProcedure [dbo].[inventarios_bajos]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[inventarios_bajos]
+as 
+select codigo,descripcion,precio_de_compra as precio_de_compra,grupo_de_productos.linea as categoria,stock, stock_minimo as stock_minimo,grupo_de_productos.linea,
+empresa.nombre_empresa,empresa.logo from productos cross join empresa 
+inner join grupo_de_productos on grupo_de_productos.idline=productos.id_grupo
+where stock &lt;= stock_minimo and usar_inventario='Si'
+
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_caja_principal]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[mostrar_caja_principal] 
+as 
+if exists (select movimiento_caja_cierre.id_caja from movimiento_caja_cierre inner join caja on caja.id_caja= movimiento_caja_cierre.id_caja where caja.tipo='Principal')
+select caja.*,usuarios.nombres_apellidos,MAX(movimiento_caja_cierre.id_cierre_caja)
+from movimiento_caja_cierre inner join
+caja on caja.id_caja = movimiento_caja_cierre.id_caja
+inner join usuarios on usuarios.IDusuarios = movimiento_caja_cierre.id_usuario
+where caja.Tipo ='Principal'
+group by caja.serial_pc,caja.id_caja,caja.descripcion,caja.Tema,caja.impresora_A4,caja.impresora_ticket,caja.Estado,caja.Tipo,usuarios.nombres_apellidos
+else
+select caja.*, usuarios.nombres_apellidos from caja  
+cross join usuarios 
+where tipo='Principal' and usuarios.login='Administrador'
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_caja_secundarias]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[mostrar_caja_secundarias]
+as 
+if exists (select movimiento_caja_cierre.id_caja from movimiento_caja_cierre inner join caja on caja.id_caja= movimiento_caja_cierre.id_caja where caja.tipo='Secundaria')
+select caja.*,usuarios.nombres_apellidos,MAX(movimiento_caja_cierre.id_cierre_caja)
+from movimiento_caja_cierre inner join
+caja on caja.id_caja = movimiento_caja_cierre.id_caja
+inner join usuarios on usuarios.IDusuarios = movimiento_caja_cierre.id_usuario
+where caja.Tipo ='Secundaria'
+group by caja.serial_pc,caja.id_caja,caja.descripcion,caja.Tema,caja.impresora_A4,caja.impresora_ticket,caja.Estado,caja.Tipo,usuarios.nombres_apellidos
+else
+select caja.*, usuarios.nombres_apellidos from caja  
+cross join usuarios 
+where tipo='Secundaria' and usuarios.login='Administrador'
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_cajas_por_serial_de_discoDuro]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[mostrar_cajas_por_serial_de_discoDuro]
+@serial as varchar(max)
+as 
+select id_caja,descripcion,serial_pc from caja 
+where serial_pc = @serial
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_cierre_de_caja_pendiente]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[mostrar_cierre_de_caja_pendiente] 
+@idcaja int 
+as 
+begin
+select id_caja, fecha_inicio,saldo_en_caja from movimiento_caja_cierre where id_caja =@idcaja and Estado ='Caja Aperturada'
+end
+select * from movimiento_caja_cierre
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_clientes]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[mostrar_clientes]
+as 
+begin
+select idcliente,nombre,direccion_para_factura,identificador_fiscal,movil,Estado,Saldo from clientes where nombre &lt;&gt; 'GENERICO'
+end
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_clientes_activos]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+create proc [dbo].[mostrar_clientes_activos]
+as 
+select count(idcliente) from clientes where cliente ='SI' and Estado = 'ACTIVO'
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_clientes_eliminados]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[mostrar_clientes_eliminados]
+as 
+select count(idcliente) from clientes where cliente ='SI' and Estado = 'Eliminado'
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_datos_para_admin]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[mostrar_datos_para_admin]
+as
+begin 
+declare @productos int
+declare @total_ventas int
+set @total_ventas=(select count(idventa) from ventas where Estado='CONFIRMADO')
+set @productos =(select count(id_producto) from productos)
+select @productos, @total_ventas
+end
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_descripcion_producto_s_repetir]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[mostrar_descripcion_producto_s_repetir]
+		@buscar varchar(70)
+		as select top 10 descripcion from productos where descripcion  like '%' + @buscar +'%'
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_empresa]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[mostrar_empresa] 
+as 
+select logo,nombre_empresa as empresa ,(impuesto + '('+CONVERT(varchar(50),porcentaje_impuesto)+')') impuesto,moneda,id_empresa,porcentaje_impuesto,impuesto,modo_de_busqueda
+,trabajas_con_impuestos,correo_para_enviar_reportes,carpeta_para_copiar_seguridad,redondeo_de_total,pais from empresa 
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_formato_ticket]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[mostrar_formato_ticket]
+as 
+select
+ empresa.logo,empresa.nombre_empresa,empresa.telefono,ticket.* from ticket inner join empresa on empresa.id_empresa = ticket.id_empresa
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_grupos]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[mostrar_grupos]
+			@buscar varchar(50)
+			as begin
+			select idline,linea as Grupo from grupo_de_productos where linea like '%' + @buscar +'%'
+			end
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_id_venta_por_id_caja]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+  create proc [dbo].[mostrar_id_venta_por_id_caja]
+  @id_caja int
+  as 
+  select max(idventa) from ventas
+  where id_caja=@id_caja
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_impresora_por_caja]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+	create proc [dbo].[mostrar_impresora_por_caja]
+	@serial varchar(max)
+	as 
+	select impresora_ticket 
+	from caja where serial_pc = @serial
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_inicio_sesion]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[mostrar_inicio_sesion] 
+@id_serial_pc varchar(max)
+as 
+select id_usuario from inicio_sesion_por_caja
+where id_serial_pc = @id_serial_pc
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_movimientos_caja_por_serial_y_usuario]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ CREATE procedure [dbo].[mostrar_movimientos_caja_por_serial_y_usuario]
+ @serial varchar(50),
+ @idusuario int
+ as
+ select usuarios.login,usuarios.nombres_apellidos from movimiento_caja_cierre inner join usuarios on usuarios.IDusuarios=movimiento_caja_cierre.id_usuario 
+ inner join caja on caja.id_caja = movimiento_caja_cierre.id_caja
+ where caja.serial_pc =@serial and movimiento_caja_cierre.Estado='Caja Aperturada' and movimiento_caja_cierre.id_usuario=@idusuario and usuarios.Estado='Activo'
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_movimientos_de_caja_por_serial]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[mostrar_movimientos_de_caja_por_serial]
+@serial varchar(max)
+as 
+select usuarios.login,usuarios.nombres_apellidos,IDusuarios from movimiento_caja_cierre
+inner join usuarios on usuarios.IDusuarios =movimiento_caja_cierre.id_usuario
+inner join caja on caja.id_caja = movimiento_caja_cierre.id_caja
+where caja.serial_pc =@serial and movimiento_caja_cierre.Estado ='Caja Aperturada'
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_movimientos_de_kardex_modulo_kardex]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[mostrar_movimientos_de_kardex_modulo_kardex]
+@idproducto int
+as 
+select kardex.fecha,productos.descripcion,kardex.motivo as movimiento, kardex.cantidad, 
+kardex.tipo,kardex.hay as Hay ,usuarios.nombres_apellidos as cajero,grupo_de_productos.linea as categoria, kardex.costo_unit,kardex.Total,
+grupo_de_productos.linea,empresa.logo,empresa.nombre_empresa,productos.stock, convert(numeric(18,2),productos.stock*kardex.costo_unit) as totalInventario
+from kardex inner join productos on productos.id_producto = kardex.id_producto inner join usuarios on usuarios.IDusuarios = kardex.id_usuario
+cross join empresa
+inner join grupo_de_productos on 
+grupo_de_productos.idline=productos.id_grupo
+where productos.id_producto=@idproducto order by kardex.id_kardex desc 
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_permisos_por_usuario_rol]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[mostrar_permisos_por_usuario_rol]
+@id_usuario int
+as
+select 
+usuarios.Rol
+from usuarios
+where usuarios.IDusuarios = @id_usuario and usuarios.Estado='Activo'
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_productos_agregados_a_espera]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[mostrar_productos_agregados_a_espera] 
+@idventa int
+as
+begin
+SELECT        dbo.detalle_venta.descripcion, dbo.detalle_venta.cantidad_most, dbo.detalle_venta.precio_u, dbo.detalle_venta.total_a_pagar
+FROM            dbo.detalle_venta INNER JOIN
+dbo.ventas ON dbo.detalle_venta.idventa = dbo.ventas.idventa where detalle_venta.idventa = @idventa and detalle_venta.cantidad &gt;0
+end
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_productos_creados]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+  create proc [dbo].[mostrar_productos_creados]
+  @idventa int 
+  as 
+  select detalle_venta.codigo, (detalle_venta.descripcion) as producto, 
+  detalle_venta.cantidad_most as cantidad,
+  detalle_venta.precio_u as P_unitario,
+  CONVERT(numeric(18,2), detalle_venta.total_a_pagar) as importe,
+  detalle_venta.id_producto,detalle_venta.id_detalle_venta,detalle_venta.Estado,detalle_venta.stock,detalle_venta.cantidad,ventas.idcliente,detalle_venta.usa_inventario,
+  detalle_venta.tipo_venta, detalle_venta.idventa 
+  from detalle_venta inner join ventas
+  ventas on detalle_venta.idventa = ventas.idventa
+
+  where detalle_venta.idventa = @idventa and detalle_venta.cantidad &gt;0
+  order by
+  detalle_venta.id_detalle_venta desc
+   
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_productos_mas_vendidos]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+ CREATE proc [dbo].[mostrar_productos_mas_vendidos]
+ as 
+ begin 
+ select top 5 sum(detalle_venta.cantidad) as cantidad,productos.descripcion
+ from detalle_venta inner join productos on productos.id_producto = detalle_venta.id_producto  group by productos.descripcion
+ end
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_productos_vencidos]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ CREATE proc [dbo].[mostrar_productos_vencidos]
+
+@letra varchar(50)
+as 
+select id_producto,codigo,descripcion,fecha_de_vencimiento as F_vencimiento,stock,empresa.nombre_empresa,empresa.logo,
+
+datediff(day,fecha_de_vencimiento,CONVERT(DATE,GETDATE ())) as [dias vencidos] from productos 
+cross join empresa
+where descripcion + codigo like '%' + @letra+'%' and  fecha_de_vencimiento &lt;&gt;'NO APLICA' and fecha_de_vencimiento &lt;= CONVERT (date,getdate())
+order by (DATEDIFF(day,fecha_de_vencimiento,CONVERT(date,getdate()))) asc
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_productos_vencidos_en_menos_30_dias]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ CREATE proc [dbo].[mostrar_productos_vencidos_en_menos_30_dias]
+ as
+select id_producto,codigo,descripcion,fecha_de_vencimiento as F_vencimiento,stock,empresa.nombre_empresa,empresa.logo,
+
+datediff(day,fecha_de_vencimiento,CONVERT(DATE,GETDATE ()))*(-1)as [dias a Vencer] from productos 
+cross join empresa
+where  fecha_de_vencimiento &lt;&gt; 'NO APLICA' and fecha_de_vencimiento &gt; CONVERT (date,getdate()) and (DATEDIFF(day,fecha_de_vencimiento,CONVERT(date,GETDATE()))) *(-1) &lt;=30 
+order by (DATEDIFF(day,fecha_de_vencimiento,CONVERT(date,getdate())))*(-1) asc
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_stock_detalle_ventas]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+  CREATE proc [dbo].[mostrar_stock_detalle_ventas]
+  @id_producto int 
+  as 
+  select detalle_venta.stock ,detalle_venta.descripcion from ventas inner join detalle_venta on detalle_venta.idventa = ventas.idventa 
+  where ventas.Estado = 'EN ESPERA' and detalle_venta.id_producto = @id_producto and detalle_venta.usa_inventario='Si'
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_ticket]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ CREATE proc [dbo].[mostrar_ticket]
+		  @idventa int	  
+		  as   
+		  declare @cantidad_de_productos int
+		  set @cantidad_de_productos= (select sum(cantidad) from detalle_venta inner join ventas on ventas.idventa = detalle_venta.idventa where detalle_venta.idventa = @idventa)
+		  select detalle_venta.descripcion as producto,
+		  detalle_venta.cantidad_most, 
+		  detalle_venta.precio_u,
+		  detalle_venta.total_a_pagar as importe,
+		  empresa.nombre_empresa,
+		  empresa.logo,empresa.telefono,
+		  ticket.*,
+		  ventas.fecha_venta as fecha,
+		  empresa.impuesto +'(' + CONVERT(varchar(50),
+		  ventas.porcentaje_imp) +'%)' as impuesto,
+		  (ventas.monto_total*ventas.porcentaje_imp)/100 as subtotal_impuesto, ventas.monto_total,
+		  usuarios.nombres_apellidos as usuario, 
+		  ventas.formato_pago,
+		  ventas.vuelto,empresa.moneda,
+		  clientes.nombre, ventas.tipo_de_pago,
+		  @cantidad_de_productos as cantidad_productos,empresa.nombre_empresa + ticket.identificador_fiscal +
+		  CONVERT(varchar(50),ventas.monto_total ) as codigo_barras_empresa,
+		  ventas.comprobante, ventas.numero_doc
+		  from detalle_venta inner join ventas on ventas.idventa = detalle_venta.idventa inner join usuarios on usuarios.IDusuarios = ventas.idusuario 
+		  inner join clientes  on clientes.idcliente = ventas.idcliente cross join empresa cross join ticket 
+		  where detalle_venta.idventa = @idventa and ventas.monto_total &gt;0 order by detalle_venta.idventa desc 
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_tipo_de_documentos]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[mostrar_tipo_de_documentos]
+as 
+select serializacion.serie,serializacion.cantidad_numeros,serializacion.numerofin,serializacion.id_serializacion,
+(serializacion.serie + ' - '+serializacion.cantidad_numeros + serializacion.numerofin) as serie_completa,
+serializacion.tipodoc as comprobante , serializacion.por_defecto
+from serializacion where destino = 'VENTAS' or destino = 'OTROS'
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_todos_inventarios]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[mostrar_todos_inventarios]
+@letra varchar(50)
+as  
+select codigo,descripcion,precio_de_compra as precio_de_compra,precio_de_venta as precio_de_venta, stock,stock_minimo as stock_minimo,grupo_de_productos.linea
+as categoria,precio_de_compra*stock as importe, empresa.nombre_empresa,empresa.logo 
+from productos
+cross join empresa 
+inner join grupo_de_productos on grupo_de_productos.idline =productos.id_grupo
+where descripcion+codigo like '%' + @letra + '%' and productos.usar_inventario ='Si'
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_todos_productos_vencidos]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ CREATE proc [dbo].[mostrar_todos_productos_vencidos]
+ as
+select id_producto,codigo,descripcion,fecha_de_vencimiento as F_vencimiento,stock,
+datediff(day,fecha_de_vencimiento,CONVERT(DATE,GETDATE ()))as [dias vencidos] from productos 
+
+where  fecha_de_vencimiento &lt;&gt; 'NO APLICA' and fecha_de_vencimiento &lt;= CONVERT (date,getdate()) 
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_usuario]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[mostrar_usuario]
+as 
+
+select IDusuarios, nombres_apellidos, login as usuario ,Password ,icono,nombre_de_icono,correo,Rol from usuarios where Estado = 'Activo'
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_venta_espera]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[mostrar_venta_espera]
+as 
+begin
+select comprobante,fecha_venta,idventa,id_caja from ventas where Estado = 'EN ESPERA'
+end
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_ventas_credito]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[mostrar_ventas_credito]
+@idcaja int,
+@fecha_inicial datetime,
+@fecha_final datetime
+as 
+begin
+select sum(credito) as credito_total from ventas where (fecha_venta &gt;=@fecha_inicial and fecha_venta &lt;=@fecha_final) and id_caja = @idcaja
+end
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_ventas_efectivo_turno]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[mostrar_ventas_efectivo_turno] 
+@idcaja int,
+@fecha_inicial datetime,
+@fecha_final datetime
+as 
+begin
+select sum(efectivo) as efectivo_total from ventas where (fecha_venta &gt;=@fecha_inicial and fecha_venta &lt;=@fecha_final) and id_caja = @idcaja
+end
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_ventas_para_grafico]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ CREATE proc [dbo].[mostrar_ventas_para_grafico]
+ as 
+ declare @year int
+ set @year =  DATEPART(YEAR, GETDATE())
+ begin
+ select (DATENAME(MONTH, fecha_venta) + ' '+ DATENAME(YEAR, fecha_venta)) as fecha, sum(monto_total) as total 
+ from ventas where DATEPART(YEAR,fecha_de_pago)=@year 
+ group by DATENAME(MONTH,fecha_venta) ,DATENAME(YEAR,fecha_venta)
+ end
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_ventas_para_grafico_fechas]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ CREATE proc [dbo].[mostrar_ventas_para_grafico_fechas]
+ @fi date,
+ @ff date
+ as 
+ declare @year int
+ set @year =  DATEPART(YEAR, GETDATE())
+ begin
+ select (DATENAME(MONTH, fecha_venta) + ' '+ DATENAME(YEAR, fecha_venta)) as fecha, sum(monto_total) as total 
+ from ventas where CONVERT(date,fecha_venta)&gt;=@fi and CONVERT(date,fecha_venta)&lt;=@ff
+ group by DATENAME(MONTH,fecha_venta) ,DATENAME(YEAR,fecha_venta)
+ end
+GO
+/****** Object:  StoredProcedure [dbo].[mostrar_ventas_tarjeta]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[mostrar_ventas_tarjeta] 
+@idcaja int,
+@fecha_inicial datetime,
+@fecha_final datetime
+as 
+begin
+select sum(tarjeta) as tarjeta_total from ventas where (fecha_venta &gt;=@fecha_inicial and fecha_venta &lt;=@fecha_final) and id_caja = @idcaja
+end
+GO
+/****** Object:  StoredProcedure [dbo].[nombre_venta_espera]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[nombre_venta_espera]
+@idventa int ,
+@nombre varchar(50)
+as
+begin
+update ventas set comprobante = @nombre ,Estado = 'EN ESPERA' where idventa =@idventa
+end
+GO
+/****** Object:  StoredProcedure [dbo].[productos_bajos_stock]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ CREATE proc [dbo].[productos_bajos_stock]
+ as
+ begin
+ select stock,descripcion as producto  from productos where stock &lt;&gt;'Ilimitado' and stock &lt;=9.00
+ end
+GO
+/****** Object:  StoredProcedure [dbo].[productos_vencidos_contar]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+	CREATE proc [dbo].[productos_vencidos_contar]
+	as
+	 select
+	 count (id_producto) as id  
+	 from productos where fecha_de_vencimiento &lt;&gt; 'NO APLICA' and fecha_de_vencimiento &lt;= CONVERT(date, GETDATE()) 
+GO
+/****** Object:  StoredProcedure [dbo].[restar_productos_detalle_venta]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE proc [dbo].[restar_productos_detalle_venta] 
+	@id_detalle_venta int,
+    @id_producto varchar(50) ,
+	   @id_venta int,
+   @cantidad numeric(18,2),
+   @cantidad_mostrada numeric(18,2)
+   as
+    declare @a_partir_pm numeric(18,2)
+   declare @precio_venta numeric(18,2)
+   declare @precio_mayoreo numeric(18,2)
+   set @a_partir_pm =(select a_partir_de_pm from productos where productos.id_producto = @id_producto )
+   set  @precio_venta =   ( select precio_de_venta from productos  where productos.id_producto = @id_producto  )
+   set  @precio_mayoreo =   ( select precio_mayoreo from productos  where productos.id_producto = @id_producto  )
+   print @a_partir_pm
+	print @precio_venta
+	print @precio_mayoreo
+	begin  
+	update detalle_venta set cantidad = cantidad - @cantidad, cantidad_most=cantidad_most - @cantidad_mostrada
+	where detalle_venta.id_producto = @id_producto and detalle_venta.idventa = @id_venta
+	end
+	begin 
+	delete from detalle_venta where detalle_venta.idventa =@id_venta and detalle_venta.cantidad &lt;=0
+	end
+	begin
+	if exists( select descripcion,cantidad,id_producto,idventa from detalle_venta where cantidad &gt;= @a_partir_pm and detalle_venta.id_producto=@id_producto
+	and detalle_venta.idventa = @id_venta )
+	update detalle_venta set precio_u = @precio_mayoreo 
+	where detalle_venta.id_producto = @id_producto and detalle_venta.idventa = @id_venta and @precio_mayoreo &gt;0 and @a_partir_pm &gt;0
+	end
+	begin 
+	 if exists( select  cantidad from detalle_venta where cantidad &lt;@a_partir_pm and detalle_venta.id_producto=@id_producto and detalle_venta.idventa=@id_venta )
+	 update detalle_venta set precio_u = @precio_venta
+	 where detalle_venta.id_producto = @id_producto and detalle_venta.idventa = @id_venta
+	end
+GO
+/****** Object:  StoredProcedure [dbo].[restaurar_caja]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[restaurar_caja]
+@idcaja int
+as 
+update caja 
+set 
+Estado = 'CCAJA RESTAURADA'
+where id_caja = @idcaja
+GO
+/****** Object:  StoredProcedure [dbo].[restaurar_cliente]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[restaurar_cliente] 
+@idcliente int
+as 
+update clientes set Estado	='ACTIVO'
+where idcliente= @idcliente and Estado = 'Eliminado'
+
+GO
+/****** Object:  StoredProcedure [dbo].[total_ventas]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ create proc [dbo].[total_ventas]
+ as 
+ select sum ( monto_total) as total_m from ventas
+GO
+/****** Object:  StoredProcedure [dbo].[total_ventas_fecha]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ create proc [dbo].[total_ventas_fecha]
+  @fi date,
+ @ff date
+ as 
+ begin
+ select sum ( monto_total) as total_m from ventas where CONVERT(date,fecha_venta)&gt;= @fi and CONVERT(date,fecha_venta)&lt;=@ff
+ end
+GO
+/****** Object:  StoredProcedure [dbo].[validar_usario]    Script Date: 17/05/2022 02:17:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[validar_usario]
+@password varchar(50),
+@login varchar(50)
+as 
+select * from usuarios
+where Password = @password and login =@login and Estado='Activo'
+
+GO
+USE [master]
+GO
+ALTER DATABASE [base_datos] SET  READ_WRITE 
+GO</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AADqZcOG/w/KaGHOj0zQ1QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="timer_crear_ini.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>104, 17</value>
+  </metadata>
+  <metadata name="timer2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>234, 17</value>
+  </metadata>
+  <metadata name="timer3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>321, 17</value>
+  </metadata>
+</root>

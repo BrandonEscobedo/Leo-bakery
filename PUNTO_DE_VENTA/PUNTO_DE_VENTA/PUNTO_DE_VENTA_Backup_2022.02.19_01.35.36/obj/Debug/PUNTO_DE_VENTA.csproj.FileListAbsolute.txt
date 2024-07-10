@@ -1,0 +1,48 @@
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\PUNTO_DE_VENTA.exe.config
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\PUNTO_DE_VENTA.exe
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\PUNTO_DE_VENTA.pdb
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.AssemblyReference.cache
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.SuggestedBindingRedirects.cache
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.usuarios.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.Properties.Resources.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.GenerateResource.cache
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.CoreCompileInputs.cache
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.exe
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.pdb
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.login.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.caja.apertura_de_caja.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.SqlServer.IntegrationServices.ODataConnectionManager.dll
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.SqlServer.ManagedConnections.dll
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.CopyComplete
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.caja.cierre_de_caja.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.Menu_principal.ventas_menu_principal.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.Menu_principal.menu_principal.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.administracion_de_software.conexion_manual.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.productos.productos.resources
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.exe.licenses
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Klik.Windows.Forms.EntryLib.V2.2005.dll
+C:\proyectos visual\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.inventario_kardex.inventario_menu.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\PUNTO_DE_VENTA.exe.config
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\PUNTO_DE_VENTA.exe
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\PUNTO_DE_VENTA.pdb
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.SqlServer.IntegrationServices.ODataConnectionManager.dll
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\bin\Debug\Microsoft.SqlServer.ManagedConnections.dll
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.AssemblyReference.cache
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.SuggestedBindingRedirects.cache
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.administracion_de_software.conexion_manual.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.caja.apertura_de_caja.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.caja.cierre_de_caja.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.inventario_kardex.inventario_menu.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.login.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.Menu_principal.menu_principal.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.Menu_principal.ventas_menu_principal.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.modulos.productos.productos.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.usuarios.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.Properties.Resources.resources
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.GenerateResource.cache
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.exe.licenses
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.CoreCompileInputs.cache
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.csproj.CopyComplete
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.exe
+C:\Users\brand\Desktop\abr\PUNTO_DE_VENTA\PUNTO_DE_VENTA\obj\Debug\PUNTO_DE_VENTA.pdb
